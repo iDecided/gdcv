@@ -27,7 +27,7 @@
             "inheritVisibility": false,
             "instances": [
                 {"name": "inst_4BC4257","id": "88cfad3c-6c63-4b16-8de0-12576a8fa569","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_inst_4BC4257.gml","creationCodeType": ".gml","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_4BC4257","objId": "7dbac869-c689-4b04-a212-46ec14070a0a","rotation": 180,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 733,"y": 721},
-                {"name": "inst_3D1B5DC","id": "1a311915-1837-4824-8673-c98ecbbbdbaf","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_inst_3D1B5DC.gml","creationCodeType": ".gml","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_3D1B5DC","objId": "7dbac869-c689-4b04-a212-46ec14070a0a","rotation": -90,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 1035,"y": 524}
+                {"name": "inst_3D1B5DC","id": "1a311915-1837-4824-8673-c98ecbbbdbaf","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_inst_3D1B5DC.gml","creationCodeType": ".gml","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_3D1B5DC","objId": "7dbac869-c689-4b04-a212-46ec14070a0a","rotation": -90,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 1051,"y": 550}
             ],
             "layers": [
 
@@ -65,14 +65,14 @@
             "modelName": "GMRBackgroundLayer",
             "mvc": "1.0",
             "spriteId": "2be9ef30-d28b-4155-af03-bbcddd04f50b",
-            "stretch": true,
+            "stretch": false,
             "userdefined_animFPS": false,
             "userdefined_depth": false,
             "visible": true,
             "vspeed": 0,
             "vtiled": false,
             "x": 0,
-            "y": 0
+            "y": 100
         }
     ],
     "modelName": "GMRoom",

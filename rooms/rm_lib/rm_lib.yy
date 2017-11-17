@@ -63,14 +63,14 @@
             "modelName": "GMRBackgroundLayer",
             "mvc": "1.0",
             "spriteId": "f87fdf39-2769-42aa-96f2-430c43f232e6",
-            "stretch": true,
+            "stretch": false,
             "userdefined_animFPS": false,
             "userdefined_depth": false,
             "visible": true,
             "vspeed": 0,
             "vtiled": false,
             "x": 0,
-            "y": 0
+            "y": 100
         }
     ],
     "modelName": "GMRoom",
