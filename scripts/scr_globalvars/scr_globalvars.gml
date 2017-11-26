@@ -7,5 +7,5 @@ enum time {
 	night
 };
 
-tod = time.morning; 
-hod = 12.0;
+globalvar tod = time.morning; 
+globalvar hod = 12.0;

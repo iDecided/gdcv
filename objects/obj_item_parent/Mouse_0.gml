@@ -1,3 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-scr_globalvars();
+show_debug_message(image_index);
