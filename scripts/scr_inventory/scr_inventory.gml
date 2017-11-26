@@ -1,1 +1,0 @@
-globalvar maxItems = 15;

@@ -2,7 +2,7 @@
     "id": "0b4d109a-b019-4ad2-b3bf-aaae1cc6356f",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_item_veronica",
+    "name": "spr_gift_veronica",
     "For3D": false,
     "HTile": false,
     "VTile": false,

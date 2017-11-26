@@ -2,7 +2,7 @@
     "id": "1645a9a5-af4f-4424-888a-a6a8065e958c",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_item_mario",
+    "name": "spr_gift_mario",
     "For3D": false,
     "HTile": false,
     "VTile": false,

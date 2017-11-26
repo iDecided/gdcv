@@ -2,7 +2,7 @@
     "id": "ce8e2132-7e74-4cc6-b4cd-8d9525e11060",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_item_veronica",
+    "name": "obj_gift_veronica",
     "eventList": [
         
     ],
