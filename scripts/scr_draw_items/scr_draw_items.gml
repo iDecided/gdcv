@@ -4,6 +4,7 @@ var sizeRatio = 0.100;
 var row = 0;
 var col = 0;
 
+// Draws the actual inventory of the player's objects
 #region
 for(var i = 0; i < maxGifts; ++i)
 {

@@ -11,3 +11,5 @@ globalvar tod;
 tod = time.morning; 
 globalvar hod;
 hod = 12.0;
+
+scr_load_json();
