@@ -1,17 +1,21 @@
-file = file_text_open_read("gift_summaries.json");
-json = file_text_read_string(file);
-jsonMap = json_decode(json);
+file = file_text_open_read(argument0);
+
+// Reading in the JSON
+var jsonString = "";
+while (!file_text_eof(file))
+{
+   jsonString += file_text_readln(file);
+}
+file_text_close(file);
+
+jsonMap = json_decode(jsonString);
 
 if (jsonMap != -1) {
-	show_message("JSON sucessfully decoded");
-	biMap = ds_map_find_value(jsonMap, ds_map_find_first(jsonMap));
 	size = ds_map_size(jsonMap);
-	show_message("There are "+string(size)+" entires in the tree index");
+	show_debug_message("JSON sucessfully decoded. There are " + string(size) + " entires in the tree index");
 }
 else{
-	show_message("Could not read gift_summaries.json") ; 
+	show_message("Could not read " + string(argument0)); 
 }
 
-show_message(jsonMap[? "veronica"]);
-
-file_text_close(file);
+return jsonMap;

@@ -4,14 +4,11 @@
 
 //show_debug_message(sprite_get_name(sprite_index));
 //show_debug_message(image_index);
+giftLevel = "1";
+personName = "jacob";
+with(obj_items_ctrl)
+{
+	descriptions = descMap;
+}
+description = descriptions[? "gift_"+giftLevel+"_"+personName];
 drawSummary = true;
-
-if(file_exists("gift_summaries.json"))
-{
-	var summFile = file_text_open_read("gift_summaries.json");
-	file_text_close(summFile);
-}
-else
-{
-	show_debug_message("Yeah, so the gift summaries file doesn't seem to exist.");
-}
