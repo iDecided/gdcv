@@ -7,21 +7,14 @@ gifts = array_create(maxGifts, "");
 #region
 for(var i = 0; i < 5; ++i)
 {
-	scr_add_gift("veronica", i);
+	scr_add_gift("jacob", i);
 }  
 #endregion
 
 #region
 for(var i = 0; i < 5; ++i)
 {
-	scr_add_gift("mario", i);
-}  
-#endregion
-
-#region
-for(var i = 0; i < 5; ++i)
-{
-	scr_add_gift("ryan", i);
+	scr_add_gift("cole", i);
 }  
 #endregion
 
@@ -35,7 +28,7 @@ for(var i = 0; i < 5; ++i)
 #region
 for(var i = 0; i < 5; ++i)
 {
-	scr_add_gift("mario", i);
+	scr_add_gift("isabel", i);
 }  
 #endregion
 
@@ -43,5 +36,12 @@ for(var i = 0; i < 5; ++i)
 for(var i = 0; i < 5; ++i)
 {
 	scr_add_gift("ryan", i);
+}  
+#endregion
+
+#region
+for(var i = 0; i < 5; ++i)
+{
+	scr_add_gift("mario", i);
 }  
 #endregion

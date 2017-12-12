@@ -4,11 +4,5 @@
 
 //show_debug_message(sprite_get_name(sprite_index));
 //show_debug_message(image_index);
-giftLevel = "1";
-personName = "jacob";
-with(obj_items_ctrl)
-{
-	descriptions = descMap;
-}
-description = descriptions[? "gift_"+giftLevel+"_"+personName];
-drawSummary = true;
+obj_items_ctlr.nameToDraw = giftOwner;
+obj_items_ctlr.levelToDraw = image_index;
