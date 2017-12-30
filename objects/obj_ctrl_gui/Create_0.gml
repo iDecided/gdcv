@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 enum menu_states {
-	none = -1,
+	none = 0,
 	exploring,
 	items,
 	people_1,
@@ -14,3 +14,5 @@ enum menu_states {
 };
 
 menu_state = menu_states.none;
+
+global.guiLayer = layer_create(-1000, "guiLayer");

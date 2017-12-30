@@ -7,7 +7,6 @@ switch(menu_state)
 		exit;
 		break;
 	case menu_states.exploring:
-		scr_draw_exploringmenu();
 		break;
 	case menu_states.items:
 		

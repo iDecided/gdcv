@@ -8,6 +8,5 @@ enum time {
 };
 
 globalvar tod;
-tod = time.morning; 
 globalvar hod;
-hod = 12.0;
+globalvar guiLayer;

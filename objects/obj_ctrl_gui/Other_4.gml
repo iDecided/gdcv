@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-scr_globalvars();
-global.tod = time.morning; 
-global.hod = 12.0;
+
+show_debug_message("Changed room.");
+scr_refresh_gui();
+scr_draw_gui(menu_state);

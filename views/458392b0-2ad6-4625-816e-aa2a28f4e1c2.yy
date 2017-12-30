@@ -4,7 +4,7 @@
     "mvc": "1.1",
     "name": "458392b0-2ad6-4625-816e-aa2a28f4e1c2",
     "children": [
-        "6ebb7ba1-6d53-4e31-ada6-6f69f03eae79"
+        "aa4d56fa-52ca-4f32-b71a-0c82e82e72cd"
     ],
     "filterType": "GMScript",
     "folderName": "GUI",
