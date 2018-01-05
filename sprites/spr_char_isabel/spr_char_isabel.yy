@@ -2,7 +2,7 @@
     "id": "580888eb-faeb-4bee-9c63-267c40b5158b",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_char_izabel",
+    "name": "spr_char_isabel",
     "For3D": false,
     "HTile": false,
     "VTile": false,

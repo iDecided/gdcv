@@ -15,4 +15,4 @@ enum menu_states {
 
 menu_state = menu_states.none;
 
-global.guiLayer = layer_create(-1000, "guiLayer");
+ls_guiObjects = ds_list_create();

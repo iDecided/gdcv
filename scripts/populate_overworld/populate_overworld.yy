@@ -1,8 +1,8 @@
 {
-    "id": "a2f0a81e-a6a4-4271-b21d-f3dd04372628",
+    "id": "92a314ce-577b-48e2-92c9-0f4520472898",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_refresh_gui",
+    "name": "populate_overworld",
     "IsCompatibility": false,
     "IsDnD": false
 }
