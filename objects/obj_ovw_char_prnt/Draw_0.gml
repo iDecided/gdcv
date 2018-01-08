@@ -1,3 +1,2 @@
 /// @description Insert description here
-
-draw_self();
+if(sprite_index > -1) draw_self();

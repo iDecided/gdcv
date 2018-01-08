@@ -1,34 +1,9 @@
 /// @description 
 // You can write your code in this editor
 
-switch(menu_state)
-{
-	case menu_states.none:
-		exit;
-		break;
-	case menu_states.exploring:
-		break;
-	case menu_states.items:
-		
-		break;
-	case menu_states.people_1:
-		
-		break;
-	case menu_states.people_2:
-		
-		break;
-	case menu_states.date_1:
-		
-		break;
-	case menu_states.date_2:
-		
-		break;
-	case menu_states.date_3:
-		
-		break;
-	case menu_states.date_final:
-		
-		break;
-}
 
-exit;
+draw_set_color(c_black);
+draw_set_font(fnt_datetime);
+var timeString = string(date_get_hour(global.date)) + ":" + string(date_get_minute(global.date));
+draw_text(0, 0, weekdayNames[date_get_weekday(global.date)]);
+draw_text(110, 0, timeString);

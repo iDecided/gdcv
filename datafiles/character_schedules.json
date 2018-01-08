@@ -1,14 +1,14 @@
 {
-	"jacob_room":[1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8],
+	"jacob_room":["rm_cc","rm_cc","rm_cc","rm_cc","rm_cs","rm_cs","rm_cs","rm_cs","rm_dc","rm_dc","rm_dc","rm_dc","rm_gdl","rm_gdl","rm_gdl","rm_gdl","rm_lib","rm_lib","rm_lib","rm_lib","rm_ps","rm_ps","rm_ps","rm_ps","rm_sr","rm_sr","rm_sr","rm_sr","rm_ud","rm_ud","rm_ud","rm_ud"],
 	"jacob_spot":[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
-	"cole_room":[1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8],
+	"cole_room":["rm_cc","rm_cc","rm_cc","rm_cc","rm_cs","rm_cs","rm_cs","rm_cs","rm_dc","rm_dc","rm_dc","rm_dc","rm_gdl","rm_gdl","rm_gdl","rm_gdl","rm_lib","rm_lib","rm_lib","rm_lib","rm_ps","rm_ps","rm_ps","rm_ps","rm_sr","rm_sr","rm_sr","rm_sr","rm_ud","rm_ud","rm_ud","rm_ud"],
 	"cole_spot":[2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2],
-	"isabel_room":[1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8],
+	"isabel_room":["rm_cc","rm_cc","rm_cc","rm_cc","rm_cs","rm_cs","rm_cs","rm_cs","rm_dc","rm_dc","rm_dc","rm_dc","rm_gdl","rm_gdl","rm_gdl","rm_gdl","rm_lib","rm_lib","rm_lib","rm_lib","rm_ps","rm_ps","rm_ps","rm_ps","rm_sr","rm_sr","rm_sr","rm_sr","rm_ud","rm_ud","rm_ud","rm_ud"],
 	"isabel_spot":[3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3],
-	"veronica_room":[1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8],
+	"veronica_room":["rm_cc","rm_cc","rm_cc","rm_cc","rm_cs","rm_cs","rm_cs","rm_cs","rm_dc","rm_dc","rm_dc","rm_dc","rm_gdl","rm_gdl","rm_gdl","rm_gdl","rm_lib","rm_lib","rm_lib","rm_lib","rm_ps","rm_ps","rm_ps","rm_ps","rm_sr","rm_sr","rm_sr","rm_sr","rm_ud","rm_ud","rm_ud","rm_ud"],
 	"veronica_spot":[4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4],
-	"ryan_room":[1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8],
+	"ryan_room":["rm_cc","rm_cc","rm_cc","rm_cc","rm_cs","rm_cs","rm_cs","rm_cs","rm_dc","rm_dc","rm_dc","rm_dc","rm_gdl","rm_gdl","rm_gdl","rm_gdl","rm_lib","rm_lib","rm_lib","rm_lib","rm_ps","rm_ps","rm_ps","rm_ps","rm_sr","rm_sr","rm_sr","rm_sr","rm_ud","rm_ud","rm_ud","rm_ud"],
 	"ryan_spot":[5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5],
-	"mario_room":[1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8],
+	"mario_room":["rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr"],
 	"mario_spot":[6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6]
 }

@@ -17,9 +17,4 @@ if(temp){
 	ds_list_add(argument1, instance_create_depth(871, 71, -1000, obj_tm_adv_tod));
 	ds_list_add(argument1, instance_create_depth(924, 10, -1000, obj_tm_people));
 	ds_list_add(argument1, instance_create_depth(1099, 10, -1000, obj_tm_items));
-	
-	draw_set_color(c_black);
-	draw_set_font(fnt_gifts);
-	draw_text(0, 0, date_get_weekday(global.date));
-	draw_text(0, 0, string(date_get_hour(global.date)) + ":" + string(date_get_minute(global.date)));
 }

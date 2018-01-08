@@ -13,6 +13,8 @@ enum menu_states {
 	date_final
 };
 
+weekdayNames = ["SUN", "MON", "TUE", "WED", "THR", "FRI", "SAT"];
+
 menu_state = menu_states.none;
 
 ls_guiObjects = ds_list_create();
