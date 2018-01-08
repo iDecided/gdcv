@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "08a546f4-a3a1-445e-95fc-0d82857b79a3",
+            "Value": {
+                "id": "8151126a-9f6c-4d3d-8bd3-c13c8cbb8680",
+                "resourcePath": "objects\\obj_tm_adv_tod\\obj_tm_adv_tod.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0a99362d-6368-4271-ae6c-3bb5a6096570",
             "Value": {
                 "id": "ee2328a5-b0c4-4ead-ad1f-5868c99aa1df",
@@ -426,7 +434,7 @@
             "Key": "62ebca33-fa6c-41b2-817f-31afe088a4f3",
             "Value": {
                 "id": "78887722-927c-4bdc-97ea-e7c792cc4bca",
-                "resourcePath": "objects\\obj_tm_adv_hr\\obj_tm_adv_hr.yy",
+                "resourcePath": "objects\\obj_tm_adv_hod\\obj_tm_adv_hod.yy",
                 "resourceType": "GMObject"
             }
         },

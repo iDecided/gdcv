@@ -7,8 +7,7 @@ if(nameToDraw != "" && levelToDraw >= 0)
 	var desc = descMap[? nameToDraw + "_" + string(levelToDraw)];
 	
 	draw_set_color(c_black);
-	draw_set_font(fnt_gifts)
-	//draw_text(704, 600, desc);
+	draw_set_font(fnt_gifts);
 	draw_text_ext(704, 600, desc, font_get_size(fnt_gifts)+10, 400);
 }
 

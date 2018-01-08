@@ -1,0 +1,1 @@
+global.time_str_hr

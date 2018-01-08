@@ -8,5 +8,4 @@ enum time {
 };
 
 globalvar tod;
-globalvar hod;
-globalvar guiLayer;
+globalvar date;
