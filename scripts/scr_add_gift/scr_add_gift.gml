@@ -1,11 +1,11 @@
 /// Adds items, arg0 is the owner name, arg1 is the level of gift
 
-for(var i = 0; i < maxGifts; ++i)
+for(var i = 0; i < global.maxGifts; ++i)
 {
-	if(gifts[i] == "")
+	if(global.gifts[i] == "")
 	{
-		gifts[i] = string(argument0) + "_" + string(argument1);
-		show_debug_message("Adding: " + gifts[i]);
+		global.gifts[i] = string(argument0) + "_" + string(argument1);
+		show_debug_message("Adding: " + global.gifts[i]);
 		return(1);
 	}
 }
