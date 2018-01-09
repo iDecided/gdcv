@@ -10,6 +10,7 @@ switch (room) {
 	case rm_ps:
 	case rm_sr:
 	case rm_ud:
+		global.currentRoom = room;
 		populate_overworld();
 		break;
 	default:

@@ -9,7 +9,7 @@
         "72fcabb1-5c28-4283-939a-f961ec4b616b"
     ],
     "filterType": "GMRoom",
-    "folderName": "dates",
+    "folderName": "Dates",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

@@ -14,7 +14,7 @@
         "57bf48e5-b195-4332-bf93-9f304ebea541"
     ],
     "filterType": "GMRoom",
-    "folderName": "areas",
+    "folderName": "Areas",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
