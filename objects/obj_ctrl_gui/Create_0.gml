@@ -1,16 +1,24 @@
-/// @description Variable declaration and initialization
-// You can write your code in this editor
+///@desc guiController - Create
+
+#region Singleton Pattern Stuff
+// declare our singleton's global variable so we don't need to check if it exists
+gml_pragma("global", "global.guiController = noone;"); 
+  
+if (instance_exists(global.guiController)) {
+    if (global.guiController != id)
+        instance_destroy(id);
+    exit;
+}
+// setup our global accessor for ease of use, but also not relying on object name
+global.guiController = id;
+#endregion
 
 enum menu_states {
 	none = 0,
-	exploring,
+	ovw,
 	items,
-	people_1,
-	people_2,
-	date_1,
-	date_2,
-	date_3,
-	date_final
+	talking,
+	people
 };
 
 weekdayNames = ["SUN", "MON", "TUE", "WED", "THR", "FRI", "SAT"];

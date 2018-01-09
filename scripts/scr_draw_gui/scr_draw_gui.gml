@@ -1,9 +1,9 @@
 /// Draws the gui of the menu_state passed into it as argument0, argument1 is the list of refs to the objects for later destruction
 
-var temp = argument0;
+show_debug_message("I should be drawing menu_state: " + string(global.guiController.menu_state));
 
-
-if(temp){
+// Draw the Top Menu for overworld, items, and people screens
+if(argument0 == menu_states.ovw || argument0 == menu_states.items || argument0 == menu_states.people){
 	// Later, you'll need to make the height of this a percentage of the screen based off the ratio
 	// These are all hard-coded values for now. If I have time to make them dynamic to the screensize, they'll need to be proportional
 	
