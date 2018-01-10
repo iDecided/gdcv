@@ -1,8 +1,4 @@
-globalvar gifts;
-globalvar maxGifts;
 
-maxGifts = 30;
-gifts = array_create(maxGifts, "");
 
 #region
 for(var i = 0; i < 5; ++i)

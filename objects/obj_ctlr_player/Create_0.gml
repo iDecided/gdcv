@@ -12,4 +12,8 @@ if (instance_exists(global.playerController)) {
 global.playerController = id;
 #endregion
 
+globalvar gifts;
+globalvar maxGifts;
+global.maxGifts = 30;
+global.gifts = array_create(maxGifts, "");
 scr_init_inventory();
