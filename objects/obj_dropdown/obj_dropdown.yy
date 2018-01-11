@@ -75,6 +75,24 @@
             "value": "",
             "varName": "defaultOption",
             "varType": 2
+        },
+        {
+            "id": "2b6e14d0-e64b-4f6e-8379-67f7566ba9b7",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": [
+                "\"day\"",
+                "\"location\"",
+                "\"time\""
+            ],
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "",
+            "varName": "listType",
+            "varType": 6
         }
     ],
     "solid": false,

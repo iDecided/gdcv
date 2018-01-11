@@ -1,8 +1,8 @@
 {
-    "id": "b04c86dc-ca2b-40a9-9f2c-90445d6cc5af",
+    "id": "27aea931-7331-459e-9565-6d38df2d0816",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_globalvars",
+    "name": "scr_init_schedules",
     "IsCompatibility": false,
     "IsDnD": false
 }

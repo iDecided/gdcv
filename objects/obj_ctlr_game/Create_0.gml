@@ -13,14 +13,38 @@ if (instance_exists(global.gameController)) {
 global.gameController = id;
 #endregion
 
-scr_globalvars();
+enum time {
+	morning,
+	afternoon,
+	night
+};
+
+enum people {
+	jacob,
+	cole,
+	isabel,
+	veronica,
+	ryan,
+	mario
+}
+
+globalvar names;
+global.names = ds_list_create();
+ds_list_add(global.names, "jacob", "cole", "isabel", "veronica", "ryan", "mario");
+
+globalvar tod;
+globalvar date;
+
 global.tod = time.morning; 
 global.date = date_create_datetime(2017,1,1,8,0,0);
 
 globalvar currentRoom;
-
 globalvar talkingTo;
 
 // Initialize character schedules
 globalvar scheduleMap;
-scheduleMap = scr_load_json("character_schedules.json");
+globalvar schedules;
+schedules = ds_map_create();
+scr_init_schedules(schedules);
+
+global.scheduleMap = scr_load_json("character_schedules.json");
