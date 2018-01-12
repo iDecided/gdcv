@@ -186,7 +186,7 @@
             "Key": "1c001ae3-4acc-4d21-884e-6d5a7834296a",
             "Value": {
                 "id": "8fe36bf8-643a-4d83-b927-aacbf8bb03ff",
-                "resourcePath": "scripts\\scr_det_sched_accessor\\scr_det_sched_accessor.yy",
+                "resourcePath": "scripts\\scr_get_hr_grid_accessor\\scr_get_hr_grid_accessor.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1011,6 +1011,14 @@
             "Value": {
                 "id": "82e3bfeb-29cc-46eb-ba9c-1fda25145809",
                 "resourcePath": "sprites\\spr_bg_ud\\spr_bg_ud.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "de5c2006-b2b0-445e-8698-82d604328f47",
+            "Value": {
+                "id": "4eb828a6-6d3c-4245-aaae-d9f3807e4e63",
+                "resourcePath": "sprites\\spr_gift_highlighter\\spr_gift_highlighter.yy",
                 "resourceType": "GMSprite"
             }
         },

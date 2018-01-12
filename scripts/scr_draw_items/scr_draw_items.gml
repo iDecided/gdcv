@@ -1,5 +1,8 @@
-var topMenuOffset = 100;
-var sizeRatio = 0.100;
+var sizeRatio = 0.075;
+var startX = 93;
+var startY = 135;
+var spacingX = 88;
+var spacingY = 88;
 
 var row = 0;
 var col = 0;
@@ -12,7 +15,9 @@ for(var i = 0; i < global.maxGifts; ++i)
 		{
 			var owner = string_copy(global.gifts[i], 0, string_length(global.gifts[i]) - 2);
 			var level = string_char_at(global.gifts[i], string_length(global.gifts[i]));
-			var tempObj = instance_create_depth(col * 1000 * sizeRatio, (row * 1000 * sizeRatio) + topMenuOffset, 0, asset_get_index("obj_gift_" + owner));
+			var tempX = startX + (col * spacingX);
+			var tempY = (row * spacingY) + startY;
+			var tempObj = instance_create_depth(tempX, tempY, 0, asset_get_index("obj_gift_" + owner));
 			with(tempObj)
 			{
 			    image_speed = 0;

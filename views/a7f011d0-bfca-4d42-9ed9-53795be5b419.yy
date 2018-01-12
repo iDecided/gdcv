@@ -13,7 +13,7 @@
         "6d5e94ba-d1d0-42fd-b9ec-20e952401dc2"
     ],
     "filterType": "GMObject",
-    "folderName": "Items",
+    "folderName": "Gifts",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

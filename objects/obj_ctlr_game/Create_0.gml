@@ -47,4 +47,7 @@ globalvar schedules;
 schedules = ds_map_create();
 scr_init_schedules(schedules);
 
+//globalvar datesList;
+//datesList = ds_list_create();
+
 global.scheduleMap = scr_load_json("character_schedules.json");
