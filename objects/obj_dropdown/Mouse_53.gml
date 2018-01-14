@@ -13,6 +13,7 @@ if (position_meeting(mouse_x, mouse_y, self)) {
 		for (var i = 0; i < ds_list_size(optionsList); ++i) {
 		    dropdownItemsList[| i] = instance_create_depth(x, yy, -1000, obj_dropdown_item);
 			dropdownItemsList[| i].text = optionsList[| i];
+			dropdownItemsList[| i].value = valueList[| i];
 			dropdownItemsList[| i].owner = id;
 			yy += yIncrement;
 		}

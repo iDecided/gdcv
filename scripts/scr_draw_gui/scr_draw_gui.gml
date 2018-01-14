@@ -1,6 +1,6 @@
 /// Draws the gui of the menu_state passed into it as argument0, argument1 is the list of refs to the objects for later destruction
 
-show_debug_message("I should be drawing menu_state: " + string(global.guiController.menu_state));
+//show_debug_message("I should be drawing menu_state: " + string(global.guiController.menu_state));
 
 // Draw the Top Menu for overworld, items, and people screens
 if(argument0 == menu_states.ovw || argument0 == menu_states.items || argument0 == menu_states.people){

@@ -727,6 +727,22 @@
             }
         },
         {
+            "Key": "95225533-61dd-4eee-9c43-35931d1015b8",
+            "Value": {
+                "id": "c0912195-5d31-4bbc-9762-de33df662a63",
+                "resourcePath": "objects\\obj_submit\\obj_submit.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "960eafe6-2593-4dd2-8fca-a06abfb3c09a",
+            "Value": {
+                "id": "55a4fe8b-5a47-4dc8-ac68-d00c8bc381fd",
+                "resourcePath": "sprites\\spr_confirm_date\\spr_confirm_date.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9c323ea7-3f03-4ceb-923b-c253eaddabff",
             "Value": {
                 "id": "4a82be97-7e21-4d01-840f-6dc099ca603a",

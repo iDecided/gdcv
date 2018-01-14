@@ -5,6 +5,6 @@ draw_set_color(c_orange);
 draw_set_font(fnt_dropdown);
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
-draw_text(x, y, string(choiceSelected));
+draw_text(x, y, string(selectedText));
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
