@@ -19,8 +19,16 @@ switch (room) {
 	case rm_tm_items:
 		global.guiController.menu_state = menu_states.items;
 		break;
-	case rm_tm_people:
-		global.guiController.menu_state = menu_states.people;
+	case rm_tm_people_overview:
+		global.guiController.menu_state = menu_states.people_overview;
+		break;
+	case rm_tm_people_details:
+		global.guiController.menu_state = menu_states.people_details;
+		break;
+	case rm_date_morning:
+	case rm_date_afternoon:
+	case rm_date_night:
+		global.guiController.menu_state = menu_states.date;
 		break;
 	default:
 		global.guiController.menu_state = menu_states.none;

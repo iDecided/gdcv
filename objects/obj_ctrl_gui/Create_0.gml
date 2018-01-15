@@ -18,7 +18,9 @@ enum menu_states {
 	ovw,
 	items,
 	talking,
-	people
+	people_overview,
+	people_details,
+	date
 };
 
 weekdayNames = ["SUN", "MON", "TUE", "WED", "THR", "FRI", "SAT"];
