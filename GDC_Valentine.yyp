@@ -55,22 +55,6 @@
             }
         },
         {
-            "Key": "0482df28-0e80-4f03-b8c2-7b1a91ce47ec",
-            "Value": {
-                "id": "e7dd84b4-5975-41f1-a536-74b2dc8924df",
-                "resourcePath": "objects\\obj_ovw_jacob\\obj_ovw_jacob.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "0665fd30-1718-4d7d-9b76-decc22268940",
-            "Value": {
-                "id": "23e4833a-747b-4445-a07a-a0fe7d925f82",
-                "resourcePath": "objects\\obj_ovw_veronica\\obj_ovw_veronica.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "073653fd-7c1c-4fd0-98a3-1b8d30353ee8",
             "Value": {
                 "id": "3e445b4e-f19c-4f8c-986c-d913aa7cc616",
@@ -111,22 +95,6 @@
             }
         },
         {
-            "Key": "0a99362d-6368-4271-ae6c-3bb5a6096570",
-            "Value": {
-                "id": "ee2328a5-b0c4-4ead-ad1f-5868c99aa1df",
-                "resourcePath": "objects\\obj_ovw_mario\\obj_ovw_mario.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "0ad03bdc-ee12-4ae2-85d2-43427abadb6f",
-            "Value": {
-                "id": "96c4381d-e9ef-4994-bbdd-c7e65a3e6812",
-                "resourcePath": "objects\\obj_ovw_cole\\obj_ovw_cole.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "0b4d109a-b019-4ad2-b3bf-aaae1cc6356f",
             "Value": {
                 "id": "9e4195c4-29ec-4967-b557-09a29cf18369",
@@ -148,14 +116,6 @@
                 "id": "951ca61b-1cc5-4d3d-98be-eab7374633f9",
                 "resourcePath": "views\\0d98b601-111d-4d5a-b172-29b8c917572b.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "13cca61c-a166-4426-bb1c-3ebd0954291d",
-            "Value": {
-                "id": "ce993793-a42e-407a-9c7f-7ce9e1f48826",
-                "resourcePath": "objects\\obj_ovw_ryan\\obj_ovw_ryan.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -1148,14 +1108,6 @@
                 "id": "9fdb39af-e2ec-467c-9774-82186f7d8481",
                 "resourcePath": "sprites\\spr_bg_lib\\spr_bg_lib.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "fc4d8167-e22f-4413-9493-f95a788e1c38",
-            "Value": {
-                "id": "1874ca4e-7db6-4bad-a9b3-947476f22188",
-                "resourcePath": "objects\\obj_ovw_isabel\\obj_ovw_isabel.yy",
-                "resourceType": "GMObject"
             }
         },
         {
