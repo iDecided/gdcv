@@ -28,25 +28,27 @@ enum people {
 	mario
 }
 
+// A global list of names so that you can loop over them
 globalvar names;
 global.names = ds_list_create();
 ds_list_add(global.names, "jacob", "cole", "isabel", "veronica", "ryan", "mario");
 
+// Date and time variables and initialization
 globalvar tod;
 globalvar date;
-
 global.tod = time.morning; 
 global.date = date_create_datetime(2017,1,1,8,0,0);
-
-globalvar currentRoom;
-globalvar talkingTo;
 
 // Initialize character schedules
 globalvar schedules;
 schedules = ds_map_create();
 scr_init_schedules(schedules);
+global.scheduleMap = scr_load_json("character_schedules.json");
 
+// A list maps that contain the details of any dates that the player has planned
 globalvar plannedDates;
 plannedDates = ds_map_create();
 
-global.scheduleMap = scr_load_json("character_schedules.json");
+// Global variables that really should be values passed around as arguments, but eh.
+globalvar currentRoom;
+globalvar talkingTo;
