@@ -4,7 +4,7 @@
 if(menu_state == menu_states.ovw || menu_state == menu_states.items || menu_state == menu_states.people_overview || menu_state == menu_states.people_details) {
 	draw_set_color(c_black);
 	draw_set_font(fnt_datetime);
-	var timeString = string(date_get_hour(global.date)) + ":" + string(date_get_minute(global.date));
+	var timeString = scr_format_time_string(global.date);
 	draw_text(0, 0, weekdayNames[date_get_weekday(global.date)]);
 	draw_text(110, 0, timeString);
 }
