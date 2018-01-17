@@ -43,7 +43,6 @@ global.date = date_create_datetime(2017,1,1,8,0,0);
 globalvar schedules;
 schedules = ds_map_create();
 scr_init_schedules(schedules);
-global.scheduleMap = scr_load_json("character_schedules.json");
 
 // A list maps that contain the details of any dates that the player has planned
 globalvar plannedDates;
