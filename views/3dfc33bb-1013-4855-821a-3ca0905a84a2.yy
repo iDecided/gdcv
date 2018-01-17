@@ -10,7 +10,7 @@
         "8f49da0f-39e5-4bb0-8c3e-5b22703af605",
         "0b4d109a-b019-4ad2-b3bf-aaae1cc6356f",
         "2d77ab33-436b-4538-9952-21fc9cf8f811",
-        "1645a9a5-af4f-4424-888a-a6a8065e958c"
+        "744d0e14-8c9a-4bc6-87c1-bfa9dd3d3159"
     ],
     "filterType": "GMSprite",
     "folderName": "Gifts",

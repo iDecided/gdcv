@@ -41,6 +41,13 @@
                     "mvc": "1.0",
                     "FrameId": "fdaa40c2-736b-487f-ae09-28a16b73e8e4",
                     "LayerId": "8aca610f-ade8-44dc-8d7e-7150ff5aca05"
+                },
+                {
+                    "id": "ab35fa89-c99c-49f3-9414-07a001225d46",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "fdaa40c2-736b-487f-ae09-28a16b73e8e4",
+                    "LayerId": "76867cce-e097-4c08-955d-75a417622026"
                 }
             ]
         },
@@ -70,6 +77,13 @@
                     "mvc": "1.0",
                     "FrameId": "28f88a38-b98d-4f04-8dc8-b910ebf337f8",
                     "LayerId": "7f736e04-e275-4689-bb18-656579807ca3"
+                },
+                {
+                    "id": "443db3c0-0303-4926-a113-f4aa9f44bbb0",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "28f88a38-b98d-4f04-8dc8-b910ebf337f8",
+                    "LayerId": "76867cce-e097-4c08-955d-75a417622026"
                 }
             ]
         },
@@ -99,6 +113,13 @@
                     "mvc": "1.0",
                     "FrameId": "3c8f63ca-dc54-4960-841e-938afdd8102e",
                     "LayerId": "7f736e04-e275-4689-bb18-656579807ca3"
+                },
+                {
+                    "id": "63b1b7d5-8652-4578-9b28-1f5523665d90",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "3c8f63ca-dc54-4960-841e-938afdd8102e",
+                    "LayerId": "76867cce-e097-4c08-955d-75a417622026"
                 }
             ]
         },
@@ -128,6 +149,13 @@
                     "mvc": "1.0",
                     "FrameId": "ccd22e3f-5f30-426e-baa3-a9c88d58a171",
                     "LayerId": "7f736e04-e275-4689-bb18-656579807ca3"
+                },
+                {
+                    "id": "501926b9-0164-4dbc-a455-63f90edd8f5e",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "ccd22e3f-5f30-426e-baa3-a9c88d58a171",
+                    "LayerId": "76867cce-e097-4c08-955d-75a417622026"
                 }
             ]
         },
@@ -157,6 +185,13 @@
                     "mvc": "1.0",
                     "FrameId": "7f911cc3-0b03-42e4-9e66-7c2c94def81f",
                     "LayerId": "7f736e04-e275-4689-bb18-656579807ca3"
+                },
+                {
+                    "id": "c96327da-f580-4f39-9581-c3a745a36707",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "7f911cc3-0b03-42e4-9e66-7c2c94def81f",
+                    "LayerId": "76867cce-e097-4c08-955d-75a417622026"
                 }
             ]
         },
@@ -186,6 +221,13 @@
                     "mvc": "1.0",
                     "FrameId": "170e9744-9dbc-40d5-b552-1c5b2262c48d",
                     "LayerId": "7f736e04-e275-4689-bb18-656579807ca3"
+                },
+                {
+                    "id": "e0d1bbb9-5639-4067-bece-8ee3f23a115d",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "170e9744-9dbc-40d5-b552-1c5b2262c48d",
+                    "LayerId": "76867cce-e097-4c08-955d-75a417622026"
                 }
             ]
         }
@@ -194,6 +236,17 @@
     "gridY": 0,
     "height": 335,
     "layers": [
+        {
+            "id": "76867cce-e097-4c08-955d-75a417622026",
+            "modelName": "GMImageLayer",
+            "mvc": "1.0",
+            "SpriteId": "d9518467-8a33-4a92-8a25-1f0dfa586a9d",
+            "blendMode": 0,
+            "isLocked": false,
+            "name": "Layer 2",
+            "opacity": 100,
+            "visible": true
+        },
         {
             "id": "8aca610f-ade8-44dc-8d7e-7150ff5aca05",
             "modelName": "GMImageLayer",
@@ -219,7 +272,7 @@
     ],
     "origin": 0,
     "originLocked": false,
-    "playbackSpeed": 15,
+    "playbackSpeed": 0,
     "playbackSpeedType": 0,
     "premultiplyAlpha": false,
     "sepmasks": false,
