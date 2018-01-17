@@ -49,6 +49,7 @@ global.scheduleMap = scr_load_json("character_schedules.json");
 globalvar plannedDates;
 plannedDates = ds_map_create();
 
+
 // Global variables that really should be values passed around as arguments, but eh.
 globalvar currentRoom;
 globalvar talkingTo;
