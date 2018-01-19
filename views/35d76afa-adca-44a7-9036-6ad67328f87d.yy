@@ -12,8 +12,7 @@
         "b8233cf7-ba87-4a70-a192-3283597c59b6",
         "2be9ef30-d28b-4155-af03-bbcddd04f50b",
         "dc153041-21d7-4600-9740-0744a24e7106",
-        "4754f96f-c13e-4dbd-8d31-f9e9b2e4b94f",
-        "4620fc13-3e87-443f-9ff4-52dac3d831da"
+        "4754f96f-c13e-4dbd-8d31-f9e9b2e4b94f"
     ],
     "filterType": "GMSprite",
     "folderName": "Backgrounds",

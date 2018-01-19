@@ -9,8 +9,8 @@ var col = 0;
 
 var descMap = scr_load_json("gift_summaries.json");
 
-// Draws the actual inventory of the player's objects
-#region
+
+#region // Draws the actual inventory of the player's objects
 for(var i = 0; i < global.maxGifts; ++i)
 {
 		if(global.gifts[i] != "")
@@ -43,3 +43,5 @@ for(var i = 0; i < global.maxGifts; ++i)
 		}
 }  
 #endregion
+
+ds_map_destroy(descMap);

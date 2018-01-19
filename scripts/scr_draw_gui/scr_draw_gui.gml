@@ -12,3 +12,7 @@ if(argument0 == menu_states.items) {
 if(argument0 == menu_states.people_overview) {
 	scr_gui_draw_people_overview(argument1);
 }
+
+if(argument0 == menu_states.people_details) {
+	//scr_gui_draw_people_overview(argument1, global.detailedCharacter);
+}

@@ -7,7 +7,8 @@
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-        "7b6b9e26-ee2a-48d4-a352-c893b97fd304"
+        "7b6b9e26-ee2a-48d4-a352-c893b97fd304",
+        "2a123812-dbec-4299-a60a-55e51f2874a0"
     ],
     "IsDnD": false,
     "layers": [
@@ -25,7 +26,8 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_2E11A58E","id": "7b6b9e26-ee2a-48d4-a352-c893b97fd304","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_2E11A58E","objId": "f82b292a-1053-4992-a103-e2b12a2f0bf7","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 32,"y": 128}
+{"name": "inst_2E11A58E","id": "7b6b9e26-ee2a-48d4-a352-c893b97fd304","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_2E11A58E","objId": "f82b292a-1053-4992-a103-e2b12a2f0bf7","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 32,"y": 128},
+{"name": "inst_4D3743DA","id": "2a123812-dbec-4299-a60a-55e51f2874a0","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_4D3743DA","objId": "e5aaefd6-0b57-48cb-93c7-289d0953ad42","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 96,"y": 128}
             ],
             "layers": [
 
@@ -62,7 +64,7 @@
             "m_serialiseFrozen": false,
             "modelName": "GMRBackgroundLayer",
             "mvc": "1.0",
-            "spriteId": "4620fc13-3e87-443f-9ff4-52dac3d831da",
+            "spriteId": "22f6ca9e-f19e-42bf-b7de-1ae76aafa81a",
             "stretch": false,
             "userdefined_animFPS": false,
             "userdefined_depth": false,

@@ -9,7 +9,10 @@
         "76f7ad06-0e24-4d96-b2e9-70738cad9e74",
         "fea0ec55-9ad2-477e-bd54-edb03f762754",
         "d9518467-8a33-4a92-8a25-1f0dfa586a9d",
-        "0f3e289c-45ed-4890-adb6-47dc8fb74394"
+        "0f3e289c-45ed-4890-adb6-47dc8fb74394",
+        "9533981e-695c-4418-b1b8-b08b81cc7460",
+        "22f6ca9e-f19e-42bf-b7de-1ae76aafa81a",
+        "4620fc13-3e87-443f-9ff4-52dac3d831da"
     ],
     "filterType": "GMSprite",
     "folderName": "Temps",
