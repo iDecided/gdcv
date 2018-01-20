@@ -20,5 +20,5 @@ if(menu_state == menu_states.people_overview) {
 }
 
 if(menu_state == menu_states.people_details) {
-	draw_sprite_ext(asset_get_index("spr_char_" + global.detailedCharacter), 0, -16, 176, -0.18, 0.18,0, c_white, 1);
+	draw_sprite_ext(asset_get_index("spr_char_" + global.detailedCharacter), 0, -16, 176, 0.18, 0.18, 0, c_white, 1);
 }

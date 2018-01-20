@@ -8,7 +8,14 @@ if(hoveredOver) {
 var day = date_get_weekday(global.date);
 var roomSched = global.schedules[? character];
 var accessor = scr_get_hr_grid_accessor();
-var locationString = roomSched[# day, accessor];
+
+var locationString;
+if(global.plannedDates[? character] && ds_map_find_value(global.plannedDates[? character], "day") == day && ds_map_find_value(global.plannedDates[? character], "time") == global.tod) {
+	locationString = room_get_name(ds_map_find_value(global.plannedDates[? character], "location"));
+}
+else {
+	locationString = roomSched[# day, accessor];
+}
 if(!is_string(locationString)) {
 	locationString = "Not Available";
 }

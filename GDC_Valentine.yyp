@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "3a70766c-5e04-4ec6-8337-b41273be27fe",
+            "Value": {
+                "id": "4d2a3b58-8375-4672-b8a5-4ad719d38863",
+                "resourcePath": "datafiles_yy\\character_details.json.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "3dfc33bb-1013-4855-821a-3ca0905a84a2",
             "Value": {
                 "id": "6849cc88-0395-485b-9275-ffc7fe134382",
