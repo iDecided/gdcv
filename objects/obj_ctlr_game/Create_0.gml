@@ -48,6 +48,15 @@ scr_init_schedules(schedules);
 globalvar plannedDates;
 plannedDates = ds_map_create();
 
+globalvar affectionMap;
+affectionMap = ds_map_create();
+affectionMap[? "jacob"] = 100;
+affectionMap[? "cole"] = 100;
+affectionMap[? "isabel"] = 100;
+affectionMap[? "veronica"] = 100;
+affectionMap[? "ryan"] = 100;
+affectionMap[? "mario"] = 100;
+
 
 // Global variables that really should be values passed around as arguments, but eh.
 globalvar currentRoom;
