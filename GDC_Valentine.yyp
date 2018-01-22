@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "1142a104-6ecd-4687-96d2-bdbde1c95a71",
+            "Value": {
+                "id": "a8f9d828-b8ad-4bb9-8391-826da9f3c666",
+                "resourcePath": "scripts\\scr_draw_affection_bars\\scr_draw_affection_bars.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "14be2050-85a9-4514-9120-7cccdf58ea59",
             "Value": {
                 "id": "db8e494c-6025-47b8-b871-861c726d2e2a",
@@ -1111,6 +1119,14 @@
             }
         },
         {
+            "Key": "e6219762-7642-4f02-8bb9-7f9bebb82cd5",
+            "Value": {
+                "id": "406a64b4-bc2e-48a7-a7f2-7b70932a8c68",
+                "resourcePath": "sprites\\spr_overview_affection_temp\\spr_overview_affection_temp.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e6d194ba-93b6-445d-8ca9-78a670ba6903",
             "Value": {
                 "id": "e48d880e-2a24-44de-85a4-465d6f242028",
@@ -1250,6 +1266,7 @@
         "9f139ec3-b19d-461a-996e-56fd345effb9",
         "1c001ae3-4acc-4d21-884e-6d5a7834296a",
         "5cfae730-b379-465e-bfd0-dbb57ac4140d",
+        "1142a104-6ecd-4687-96d2-bdbde1c95a71",
         "92a314ce-577b-48e2-92c9-0f4520472898",
         "701654ad-0c9e-4de0-a9d3-fa881633ab7a",
         "27aea931-7331-459e-9565-6d38df2d0816"

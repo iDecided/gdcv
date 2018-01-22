@@ -55,7 +55,7 @@ affectionMap[? "cole"] = 40;
 affectionMap[? "isabel"] = 60;
 affectionMap[? "veronica"] = 80;
 affectionMap[? "ryan"] = 100;
-affectionMap[? "mario"] = 55;
+affectionMap[? "mario"] = 1;
 
 
 // Global variables that really should be values passed around as arguments, but eh.
