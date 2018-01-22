@@ -50,12 +50,12 @@ plannedDates = ds_map_create();
 
 globalvar affectionMap;
 affectionMap = ds_map_create();
-affectionMap[? "jacob"] = 100;
-affectionMap[? "cole"] = 100;
-affectionMap[? "isabel"] = 100;
-affectionMap[? "veronica"] = 100;
+affectionMap[? "jacob"] = 20;
+affectionMap[? "cole"] = 40;
+affectionMap[? "isabel"] = 60;
+affectionMap[? "veronica"] = 80;
 affectionMap[? "ryan"] = 100;
-affectionMap[? "mario"] = 100;
+affectionMap[? "mario"] = 55;
 
 
 // Global variables that really should be values passed around as arguments, but eh.

@@ -10,6 +10,7 @@ for(var i = 0; i < ds_list_size(global.names); ++i)
 			image_index = i + 1;
 			image_xscale = 0.13;
 			image_yscale = 0.13;
+			index = i;
 		}
 		ds_list_add(argument0, tempObj);
 }

@@ -54,3 +54,4 @@ if(!is_string(locationString)) {
 draw_set_font(fnt_people);
 draw_text(x + 116, y, character);
 draw_text(x + 144, y + 70, locationString);
+draw_sprite_ext(spr_overview_affection, index, x + 2, y + 118, 0.666 * (global.affectionMap[? character] / 100), 0.666, 0, c_white, 1);

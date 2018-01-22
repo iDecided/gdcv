@@ -3,3 +3,4 @@
 
 character = "";
 hoveredOver = false;
+index = -1;
