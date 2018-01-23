@@ -9,13 +9,13 @@ if (position_meeting(mouse_x, mouse_y, self)) {
 	}
 	else {
 		var yIncrement = sprite_get_height(spr_tmp_dropdown);
-		var yy = y + yIncrement;
+		var yy = y - yIncrement;
 		for (var i = 0; i < ds_list_size(optionsList); ++i) {
 		    dropdownItemsList[| i] = instance_create_depth(x, yy, -1000, obj_dropdown_item);
 			dropdownItemsList[| i].text = optionsList[| i];
 			dropdownItemsList[| i].value = valueList[| i];
 			dropdownItemsList[| i].owner = id;
-			yy += yIncrement;
+			yy -= yIncrement;
 		}
 	}
 }

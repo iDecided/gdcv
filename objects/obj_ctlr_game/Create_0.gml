@@ -44,7 +44,7 @@ globalvar schedules;
 schedules = ds_map_create();
 scr_init_schedules(schedules);
 
-// A list maps that contain the details of any dates that the player has planned
+// A map of maps that contain the details of any dates that the player has planned
 globalvar plannedDates;
 plannedDates = ds_map_create();
 

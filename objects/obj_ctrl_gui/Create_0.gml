@@ -28,3 +28,5 @@ weekdayNames = ["SUN", "MON", "TUE", "WED", "THR", "FRI", "SAT"];
 menu_state = menu_states.none;
 
 ls_guiObjects = ds_list_create();
+
+charDetails = pointer_null;

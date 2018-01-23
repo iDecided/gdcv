@@ -4,20 +4,11 @@
     "mvc": "1.0",
     "name": "obj_btn_date_lose",
     "eventList": [
-        {
-            "id": "30cf91bf-c577-4dec-8e4d-f2fcd048cc79",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 7,
-            "eventtype": 6,
-            "m_owner": "8ce39720-1115-4a6a-89e9-d62adcb61025"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "f82b292a-1053-4992-a103-e2b12a2f0bf7",
+    "parentObjectId": "3f5de7ee-98cc-462e-9d4a-c3586bf5fcde",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

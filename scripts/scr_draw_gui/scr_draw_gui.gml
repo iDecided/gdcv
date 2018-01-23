@@ -16,3 +16,7 @@ if(argument0 == menu_states.people_overview) {
 if(argument0 == menu_states.people_details) {
 	//scr_gui_draw_people_overview(argument1, global.detailedCharacter);
 }
+
+if(argument0 == menu_states.talking) {
+	scr_gui_draw_talking(argument1);
+}

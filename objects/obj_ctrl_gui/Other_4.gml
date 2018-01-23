@@ -23,6 +23,7 @@ switch (room) {
 		global.guiController.menu_state = menu_states.people_overview;
 		break;
 	case rm_tm_people_details:
+		charDetails = scr_load_json("character_details.json");
 		global.guiController.menu_state = menu_states.people_details;
 		break;
 	case rm_date_morning:
