@@ -2,7 +2,7 @@
     "id": "e6219762-7642-4f02-8bb9-7f9bebb82cd5",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_overview_affection_temp",
+    "name": "spr_overview_bar",
     "For3D": false,
     "HTile": false,
     "VTile": false,
