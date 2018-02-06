@@ -1,5 +1,7 @@
 ///@desc guiController - Create
 
+#macro UPDATE_GUI with(obj_ctrl_gui){ event_user(0) };
+
 #region Singleton Pattern Stuff
 // declare our singleton's global variable so we don't need to check if it exists
 gml_pragma("global", "global.guiController = noone;"); 

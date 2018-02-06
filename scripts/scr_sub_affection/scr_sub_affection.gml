@@ -22,3 +22,5 @@ else {
 }
 
 show_debug_message(global.talkingTo + "'s Affection is: " + string(global.affectionMap[? global.talkingTo]) + " and their level is: " + string(global.affectionLevelMap[? global.talkingTo]));
+
+UPDATE_GUI;
