@@ -32,3 +32,15 @@ menu_state = menu_states.none;
 ls_guiObjects = ds_list_create();
 
 charDetails = pointer_null;
+
+globalvar npcResponse;
+npcResponse = "";
+
+enum npcStates {
+	def = 0,
+	readyForDate,
+	waitingForDate,
+	monologuing
+}
+globalvar npcState;
+npcState = npcStates.def;

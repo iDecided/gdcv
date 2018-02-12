@@ -8,15 +8,15 @@ if (position_meeting(mouse_x, mouse_y, self)) {
 		ds_list_add(optionsList, "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
 		ds_list_add(valueList, 0, 1, 2, 3, 4, 5, 6);
 	}
-	else if(listType == "location")
-	{
-		ds_list_add(optionsList, "Central Campus", "Dining Center", "Game Dev Lab", "Library", "Streaming Room");
-		ds_list_add(valueList, rm_cc, rm_dc, rm_gdl, rm_lib, rm_sr);
-	}
 	else if(listType == "time")
 	{
 		ds_list_add(optionsList, "Morning", "Afternoon", "Evening");
 		ds_list_add(valueList, time.morning, time.afternoon, time.night);
+	}
+	else if(listType == "location")
+	{
+		ds_list_add(optionsList, "Central Campus", "Dining Center", "Game Dev Lab", "Library", "Streaming Room");
+		ds_list_add(valueList, rm_cc, rm_dc, rm_gdl, rm_lib, rm_sr);
 	}
 	else {
 		show_message("Somehow, the dropdown that needed shows didn't have its 'listType' set.");

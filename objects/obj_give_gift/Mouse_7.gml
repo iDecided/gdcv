@@ -2,4 +2,4 @@
 // You can write your code in this editor
 
 var gift = get_string("Which gift do you want to give them?", "");
-scr_respond_to_gift(gift);
+accepted = scr_respond_to_gift(gift);
