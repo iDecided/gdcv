@@ -41,6 +41,6 @@ for(var i = 0; i < 1; ++i)
 #endregion
 
 global.trinkets = array_create(global.numTrinketTypes, 99);
-for (var i = 0; i < global.numTrinketTypes - 1; ++i) {
-    global.trinkets[i] = i * 20;
-}
+//for (var i = 0; i < global.numTrinketTypes - 1; ++i) {
+//    global.trinkets[i] = i * 20;
+//}

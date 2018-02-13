@@ -1,5 +1,5 @@
 // arg0 amt  The amount that you want to increase affection by
-// arg1 adjLvl  A boolean for if you want the affection to increase the affection level or not
+// arg1 adjLvl  A boolean for if you want the affection to increase the affection level or not (this was originally for debugging, may not be used anywhere)
 
 var _amt = argument0;
 var _adjLvl = argument1;
@@ -14,7 +14,7 @@ if(!_adjLvl) {
 	}
 }
 else {
-	global.affectionMap[? global.talkingTo] += 4;
+	global.affectionMap[? global.talkingTo] += _amt;
 	if(global.affectionMap[? global.talkingTo] > 100) {
 		global.affectionMap[? global.talkingTo] = 100;
 		global.affectionLevelMap[? global.talkingTo] = 5;

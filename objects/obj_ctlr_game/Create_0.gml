@@ -50,20 +50,20 @@ plannedDates = ds_map_create();
 
 globalvar affectionMap;
 affectionMap = ds_map_create();
-affectionMap[? "jacob"] = 38;
-affectionMap[? "cole"] = 41;
-affectionMap[? "isabel"] = 60;
-affectionMap[? "veronica"] = 64;
-affectionMap[? "ryan"] = 100;
-affectionMap[? "mario"] = 1;
+affectionMap[? "jacob"] = 0;
+affectionMap[? "cole"] = 0;
+affectionMap[? "isabel"] = 0;
+affectionMap[? "veronica"] = 0;
+affectionMap[? "ryan"] = 0;
+affectionMap[? "mario"] = 0;
 
 globalvar affectionLevelMap;
 affectionLevelMap = ds_map_create();
-affectionLevelMap[? "jacob"] = 1;
-affectionLevelMap[? "cole"] = 2;
-affectionLevelMap[? "isabel"] = 2;
-affectionLevelMap[? "veronica"] = 3;
-affectionLevelMap[? "ryan"] = 5;
+affectionLevelMap[? "jacob"] = 0;
+affectionLevelMap[? "cole"] = 0;
+affectionLevelMap[? "isabel"] = 0;
+affectionLevelMap[? "veronica"] = 0;
+affectionLevelMap[? "ryan"] = 0;
 affectionLevelMap[? "mario"] = 0;
 
 

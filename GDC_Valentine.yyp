@@ -239,6 +239,14 @@
             }
         },
         {
+            "Key": "21254f00-e2dd-4655-85f2-049e9b78a205",
+            "Value": {
+                "id": "1b9cdaea-86ed-4ad7-afbd-de0dbb3a2e60",
+                "resourcePath": "scripts\\scr_draw_affection_bars_seg\\scr_draw_affection_bars_seg.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "21ae9779-da18-4ee2-814d-0e46b310ba8e",
             "Value": {
                 "id": "9ed24a48-56e5-49bc-a7dc-94cbc2230ab7",
@@ -764,6 +772,14 @@
                 "id": "3a84ae72-92d6-4c89-afe6-acd1fbfb99f9",
                 "resourcePath": "views\\73f533b7-7e4d-4060-9426-99f2ef7c23c9.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "748e244d-6600-446c-9a69-fb1eb081de5c",
+            "Value": {
+                "id": "a9c6f44c-871f-4337-8e74-b920906e479e",
+                "resourcePath": "objects\\obj_give_trinket\\obj_give_trinket.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1679,6 +1695,7 @@
         "1c001ae3-4acc-4d21-884e-6d5a7834296a",
         "5cfae730-b379-465e-bfd0-dbb57ac4140d",
         "1142a104-6ecd-4687-96d2-bdbde1c95a71",
+        "21254f00-e2dd-4655-85f2-049e9b78a205",
         "12fc9b10-21ce-483a-9325-b8c98f346ca0",
         "0776031e-0cb8-41a1-ae60-8330f1f45033",
         "3b85143e-f995-4207-9f1f-f438a45729ae",

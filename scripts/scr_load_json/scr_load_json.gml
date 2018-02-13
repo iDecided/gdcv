@@ -1,4 +1,8 @@
-file = file_text_open_read(argument0);
+/// @arg0 fileName (String) The string name of the json you want to read in. INCLUDING THE EXTENSION.
+
+var _fileName = argument0;
+
+file = file_text_open_read(_fileName);
 
 // Reading in the JSON
 var jsonString = "";
@@ -15,7 +19,7 @@ if (jsonMap != -1) {
 	show_debug_message("JSON sucessfully decoded. There are " + string(size) + " entires in the tree index");
 }
 else{
-	show_message("Could not read " + string(argument0)); 
+	show_message("Could not read " + string(_fileName)); 
 }
 
 return jsonMap;
