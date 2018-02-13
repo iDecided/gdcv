@@ -2,9 +2,12 @@
 // You can write your code in this editor
 draw_self();
 
+if(choosing) {
+	draw_sprite(spr_gift_selector, 0, x + (sprite_get_width(spr_give_gift) / 2), y);
+}
+
 // Currently have a pretty large issue where this draws the objects every single frame, leading to hundred
 // and a LOT of slow down. Will take care of later.
-
 if(accepted) {
 	pickerLayer = layer_create(-100, "datePicker");
 	var tempSpr = layer_sprite_create(pickerLayer,0,0,spr_solid_black);

@@ -84,7 +84,7 @@ for(var i=0; i<ds_list_size(global.names); i++) {
 	var tempName = global.names[| i];
 	var day = date_get_weekday(global.date);
 	var roomSched = global.schedules[? tempName];
-	var accessor = scr_get_hr_grid_accessor();
+	var accessor = scr_get_hr_grid_accessor(global.date);
 	
 	shouldDraw = roomSched[# day, accessor] == room_get_name(room);
 	

@@ -8,7 +8,7 @@ if(hoveredOver) {
 
 var day = date_get_weekday(global.date);
 var roomSched = global.schedules[? character];
-var accessor = scr_get_hr_grid_accessor();
+var accessor = scr_get_hr_grid_accessor(global.date);
 
 var locationString;
 if(global.plannedDates[? character] && ds_map_find_value(global.plannedDates[? character], "day") == day && ds_map_find_value(global.plannedDates[? character], "time") == global.tod) {
@@ -18,34 +18,7 @@ else {
 	locationString = roomSched[# day, accessor];
 }
 
-switch (locationString) {
-	case "rm_cc":
-		locationString = "Central Campus";
-		break;
-	case "rm_cs":
-		locationString = "Convenience Store";
-		break;
-	case "rm_dc":
-		locationString = "Dining Center";
-		break;
-	case "rm_gdl":
-		locationString = "Game Dev Lab";
-		break;
-	case "rm_lib":
-		locationString = "Library";
-		break;
-	case "rm_ps":
-		locationString = "Pearson Hallway";
-		break;
-	case "rm_sr":
-		locationString = "Streaming Room";
-		break;
-	case "rm_ud":
-		locationString = "Union Drive";
-		break;
-	default:
-		break;
-}
+locationString = scr_room_id_to_string(locationString, false);
 
 if(!is_string(locationString)) {
 	locationString = "Not Available";

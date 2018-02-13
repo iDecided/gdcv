@@ -1,7 +1,7 @@
 // I copy-pasted these checks from scr_populate_overworld
 var day = date_get_weekday(global.date);
 var roomSched = global.schedules[? global.talkingTo];
-var accessor = scr_get_hr_grid_accessor();
+var accessor = scr_get_hr_grid_accessor(global.date);
 
 if(global.plannedDates[? global.talkingTo]) {
 	show_debug_message("They should be showing the start date button");

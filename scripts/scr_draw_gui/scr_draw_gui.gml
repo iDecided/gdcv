@@ -13,9 +13,13 @@ if(argument0 == menu_states.people_overview) {
 	scr_gui_draw_people_overview(argument1);
 }
 
+/*
+// I could get rid of this as long as I don't spawn any items objects on this screen
+// aka No hover functionality
 if(argument0 == menu_states.people_details) {
 	//scr_gui_draw_people_overview(argument1, global.detailedCharacter);
 }
+*/
 
 if(argument0 == menu_states.talking) {
 	scr_gui_draw_talking(argument1);

@@ -4,7 +4,7 @@
 if(menu_state == menu_states.ovw || menu_state == menu_states.items || menu_state == menu_states.people_overview || menu_state == menu_states.people_details) {
 	draw_set_color(c_black);
 	draw_set_font(fnt_datetime);
-	var timeString = scr_format_time_string(global.date);
+	var timeString = scr_format_time_string(global.date, true);
 	draw_text(0, 0, weekdayNames[date_get_weekday(global.date)]);
 	draw_text(110, 0, timeString);
 }
@@ -78,6 +78,7 @@ if(menu_state == menu_states.people_details) {
 	//scr_draw_affection_bars_percentage(spr_detail_bar, 0, 265, 433, 50, 155);
 	// Never mind...I'm just gunna work on the game jam stuff now...I'm sick of this. I'll figure it out later.
 	
+	
 	// Oh my God...I finally fucking did it...I *finally* figured it out...goddammit...
 	// 20:43 at night...so many hours later...and I figured it out
 	// Here's something to think about in the future: it can really, REALLY help to make temp variables that are well named to help you figure out what you're doing.
@@ -96,6 +97,35 @@ if(menu_state == menu_states.people_details) {
 		var xOffset = 265 + (fullBars * 200);
 		scr_draw_affection_bars(spr_detail_bar, 0, xOffset , xOffset + 189 * percentage / 100, 155);
 	}
-	
 	//ds_map_destroy(charDetails);
+	
+	
+	// Code for drawing the schedule times onto the screen
+	draw_set_font(fnt_schedule);
+	draw_set_valign(fa_center);
+	
+	var blah = ["Campus", "C-Store", "Dining", "GDL", "Library", "Pearson", "S-Room", "UDCC", "???"];
+	var slots = [8, 10, 14];
+	var spacer = [46.375, 37.1, 26.5];
+	var todTimes = [date_create_datetime(2017,1,1,8,0,0), date_create_datetime(2017,1,1,12,0,0), date_create_datetime(2017,1,1,17,0,0)];
+	
+	var day = date_get_weekday(global.date);
+	var roomSched = global.schedules[? global.detailedCharacter];
+	var accessor = 0;
+	var locationString = "";
+	
+	// This trick is really interesting because of the way that enums work. 
+	// Enums are automatically enumerated and since they start at 0, I can create arrays and access
+	// them based on the numeric value of the enum
+	// I'm really abusing arrays and enums like this
+	for (var i = 0; i < slots[global.tod]; ++i) {
+		accessor = scr_get_hr_grid_accessor(todTimes[global.tod]);
+		locationString = scr_room_id_to_string(roomSched[# day, accessor], true);
+		draw_text(905, 242 + (i * spacer[global.tod]), scr_format_time_string(todTimes[global.tod], false) + " - " + locationString);
+		// I initially tried just the function call here (date_inc_minute(todTimes[global.tod], 30))
+		// However this doesn't work because the function doesn't actually modify the value, since GML is entirely
+		// pass-by-value. Instead, it just returns what it should be, so you have to set the value in the array itself.
+		todTimes[global.tod] = date_inc_minute(todTimes[global.tod], 30);
+	}
+	draw_set_valign(fa_left);
 }
