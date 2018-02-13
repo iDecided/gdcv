@@ -19,7 +19,7 @@ if (position_meeting(mouse_x, mouse_y, self)) {
 		ds_list_add(valueList, rm_cc, rm_dc, rm_gdl, rm_lib, rm_sr);
 	}
 	else {
-		show_message("Somehow, the dropdown that needed shows didn't have its 'listType' set.");
+		show_message("The dropdown that needed shows didn't have its 'listType' set.");
 		game_end();
 	}
 	

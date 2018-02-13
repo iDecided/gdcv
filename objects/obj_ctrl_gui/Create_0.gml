@@ -33,7 +33,12 @@ ls_guiObjects = ds_list_create();
 
 charDetails = pointer_null;
 
-globalvar npcResponse;
+globalvar planningDate;
+planningDate = false;
+
+// This was originally how I was going to handle responses, before I realized how I could do the scrolling thing
+// This would have really only worked for if there was one block of text presented at a time.
+/* globalvar npcResponse;
 npcResponse = "";
 
 enum npcStates {
@@ -43,4 +48,4 @@ enum npcStates {
 	monologuing
 }
 globalvar npcState;
-npcState = npcStates.def;
+npcState = npcStates.def; */

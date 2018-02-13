@@ -10,7 +10,6 @@ show_debug_message("You finished the date. Deleting: " + global.talkingTo);
 // 3) Increase affection and affection level
 ds_map_delete(global.plannedDates, global.talkingTo);
 scr_advance_tod();
-global.affectionLevelMap[? global.talkingTo]++;
-global.affectionMap[? global.talkingTo] += 8;
+scr_add_affection(5, true);
 
 event_inherited();

@@ -50,7 +50,7 @@ plannedDates = ds_map_create();
 
 globalvar affectionMap;
 affectionMap = ds_map_create();
-affectionMap[? "jacob"] = 0;
+affectionMap[? "jacob"] = 20;
 affectionMap[? "cole"] = 0;
 affectionMap[? "isabel"] = 0;
 affectionMap[? "veronica"] = 0;

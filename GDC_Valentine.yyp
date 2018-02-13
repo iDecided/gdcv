@@ -1255,14 +1255,6 @@
             }
         },
         {
-            "Key": "bbd2d9a2-ce41-434f-b9c0-a012e13772ba",
-            "Value": {
-                "id": "940dbeab-54f6-472d-8608-d815e77fa0af",
-                "resourcePath": "objects\\obj_talking_prnt\\obj_talking_prnt.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "bc2a9598-561e-4dd5-8d8a-ea3cb497b5cc",
             "Value": {
                 "id": "39cc8a53-ad63-495c-93e3-bb6f2a336de9",

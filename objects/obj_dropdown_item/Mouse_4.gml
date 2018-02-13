@@ -3,7 +3,7 @@
 with(owner) {
 	selectedText = other.text;
 	selectedValue = other.value;
-	obj_talking_prnt.plannedDate[? listType] = other.value;
+	obj_submit.plannedDate[? listType] = other.value;
 }
 
 with(obj_dropdown_item) {

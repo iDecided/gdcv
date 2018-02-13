@@ -16,7 +16,9 @@ show_debug_message(global.talkingTo + " deserves a gift at level " + string(glob
 // and determine what characters it needs. I'll do that before I export it.
 // Tools -> Texture Groups
 
-if(owner == global.talkingTo && level == string(global.affectionLevelMap[? global.talkingTo])) {
+// I'll also need to separate these out into separate if statements, because they're going to trigger different responses from the NPC
+
+if(owner == global.talkingTo && level == string(global.affectionLevelMap[? global.talkingTo]) && global.affectionMap[? global.talkingTo] % 20 == 0) {
 	show_debug_message("The NPC accepts the gift!");
 	return true;
 }
