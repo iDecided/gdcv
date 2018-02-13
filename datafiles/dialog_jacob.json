@@ -1,0 +1,9 @@
+{
+	"greeting": ["Greeting 1", "Greeting 2", "Greeting 3", "Greeting 4", "Greeting 5"],
+	"gift_positive": ["G-Pos 1", "G-Pos 2", "G-Pos 3", "G-Pos 4", "G-Pos 5"],
+	"gift_negative": ["G-Neg 1", "G-Neg 2", "G-Neg 3", "G-Neg 4", "G-Neg 5"],
+	"gift_notready": ["G-NR 1", "G-NR 2", "G-NR 3", "G-NR 4", "G-NR 5"],
+	"trinket_positive": ["T-Pos 1", "T-Pos 2", "T-Pos 3", "T-Pos 4", "T-Pos 5"],
+	"trinket_negative": ["T-Neg 1", "T-Neg 2", "T-Neg 3", "T-Neg 4", "T-Neg 5"],
+	"trinket_nomore": ["T-NM 1", "T-NM 2", "T-NM 3", "T-NM 4", "T-NM 5"]
+}

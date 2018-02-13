@@ -10,7 +10,7 @@ var col = 0;
 var descMap = scr_load_json("gift_summaries.json");
 
 
-#region // Draws the actual inventory of the player's objects
+#region Draws the actual inventory of the player's objects
 for(var i = 0; i < global.maxGifts; ++i)
 {
 		if(global.gifts[i] != "")
@@ -42,6 +42,21 @@ for(var i = 0; i < global.maxGifts; ++i)
 			col = 0;
 		}
 }  
+#endregion
+
+#region Draws the player's trinkets and how many they have
+col = 5;
+row = 0;
+for (var i = 0; i < global.numTrinketTypes; ++i) {
+	var tempX = startX + (col * spacingX);
+	var tempY = (row * spacingY) + startY;
+	var tempObj = instance_create_depth(tempX, tempY, 0, obj_trinket_parent);
+	with(tempObj)
+	{
+		_type = i;
+	}
+	++row;
+}
 #endregion
 
 ds_map_destroy(descMap);

@@ -26,7 +26,7 @@ enum people {
 	veronica,
 	ryan,
 	mario
-}
+};
 
 // A global list of names so that you can loop over them
 globalvar names;

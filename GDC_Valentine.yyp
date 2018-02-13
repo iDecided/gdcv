@@ -327,6 +327,14 @@
             }
         },
         {
+            "Key": "3391ba88-3d83-4e51-87fd-22971364c2d0",
+            "Value": {
+                "id": "64dbbc0b-db61-4eed-95be-6211991841b3",
+                "resourcePath": "datafiles_yy\\dialog_jacob.json.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "34e40ff9-49c8-4d09-bf3a-7392382527ab",
             "Value": {
                 "id": "91650c16-0bf8-45b8-a1ac-e6925cb32287",
@@ -636,6 +644,14 @@
                 "id": "74186068-4abd-46ce-abf2-b03d678b3c7c",
                 "resourcePath": "scripts\\scr_format_time_string\\scr_format_time_string.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "5df088d9-3298-4f48-8bd1-bb01a227ba74",
+            "Value": {
+                "id": "66627390-2ecb-4059-94d6-66f7d0cff274",
+                "resourcePath": "datafiles_yy\\trinket_responses.json.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -1135,6 +1151,22 @@
             }
         },
         {
+            "Key": "ade364a5-1cac-49f7-8b8a-0141f9fda117",
+            "Value": {
+                "id": "6ef85db1-9513-421b-8768-acfb80132110",
+                "resourcePath": "objects\\obj_trinket_parent\\obj_trinket_parent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ae0cba59-822c-45d8-838f-32cabe796627",
+            "Value": {
+                "id": "27da9cd8-6b56-4f63-aab2-b00c0a38b1e5",
+                "resourcePath": "scripts\\scr_remove_trinket\\scr_remove_trinket.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ae3b6a16-e009-447d-a117-55cfa31b6602",
             "Value": {
                 "id": "ac106c71-e4b5-4475-a3f6-11d49852b2f1",
@@ -1367,11 +1399,27 @@
             }
         },
         {
+            "Key": "d7c7206d-7633-40d4-9d48-0466fcb56908",
+            "Value": {
+                "id": "bca307c2-fee5-414d-ab9f-6db3b446afd2",
+                "resourcePath": "scripts\\scr_add_trinket\\scr_add_trinket.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d9518467-8a33-4a92-8a25-1f0dfa586a9d",
             "Value": {
                 "id": "b5bb8ba4-73f1-467c-9379-98a9dc9bfdd3",
                 "resourcePath": "sprites\\spr_trinket\\spr_trinket.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "da0a606e-551a-4d7a-8115-431a5a23a7e9",
+            "Value": {
+                "id": "a892218c-bdf7-4665-b144-99578098c567",
+                "resourcePath": "fonts\\fnt_trinkets\\fnt_trinkets.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -1624,6 +1672,8 @@
         "b51c1a4d-4c54-421e-a302-46206fce70eb",
         "6ebcb6e0-6d83-472f-b8ba-907548ca8fc8",
         "49170357-ec10-4e60-afd2-0c90f0f0a3c8",
+        "d7c7206d-7633-40d4-9d48-0466fcb56908",
+        "ae0cba59-822c-45d8-838f-32cabe796627",
         "a1ef8f55-5975-4489-93fe-095cd2c9755f",
         "9f139ec3-b19d-461a-996e-56fd345effb9",
         "1c001ae3-4acc-4d21-884e-6d5a7834296a",
