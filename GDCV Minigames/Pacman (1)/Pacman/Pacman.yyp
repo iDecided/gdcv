@@ -1,0 +1,504 @@
+{
+    "id": "c0e3a1c7-6bd2-4295-b8b5-a5b487ee17b2",
+    "modelName": "GMProject",
+    "mvc": "1.0",
+    "IsDnDProject": false,
+    "configs": [
+        
+    ],
+    "option_ecma": false,
+    "parentProject": {
+        "id": "2b484189-cf99-41c8-b526-3f0004eb76b7",
+        "modelName": "GMProjectParent",
+        "mvc": "1.0",
+        "alteredResources": [
+            {
+                "Key": "ed6a955d-5826-4f98-a450-10b414266c27",
+                "Value": {
+                    "configDeltas": [
+                        "inherited"
+                    ],
+                    "id": "d9a4781b-6145-418f-a36f-9ffff453e660",
+                    "resourcePath": "options\\main\\options_main.yy",
+                    "resourceType": "GMMainOptions"
+                }
+            }
+        ],
+        "hiddenResources": [
+            
+        ],
+        "projectPath": "${base_project}"
+    },
+    "resources": [
+        {
+            "Key": "00483443-d1fa-4414-8437-0be709e22029",
+            "Value": {
+                "id": "ebddfba3-976d-4a80-bd9b-19c9238c5f98",
+                "resourcePath": "views\\00483443-d1fa-4414-8437-0be709e22029.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "006889bf-2e9a-493e-a723-b308ebf0f40d",
+            "Value": {
+                "id": "a7817cd7-ff7d-40ec-b028-bd9ede812066",
+                "resourcePath": "objects\\minigame_info_slave\\minigame_info_slave.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "0266752e-0b3c-4d2f-9bfc-e769c144d281",
+            "Value": {
+                "id": "530113e5-fea7-4802-aa9e-0f9ec79f97a5",
+                "resourcePath": "sprites\\pacman_enemy_scared_spr\\pacman_enemy_scared_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "0762622a-0c06-4fb6-ad0f-d984bd7ae095",
+            "Value": {
+                "id": "51b73464-47d0-464b-b64a-f2a26260f153",
+                "resourcePath": "views\\0762622a-0c06-4fb6-ad0f-d984bd7ae095.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "261fd30b-b38a-4a20-8434-c6ba18d627e6",
+            "Value": {
+                "id": "416ca363-cfe9-4720-9569-a6103b3bbcda",
+                "resourcePath": "objects\\pacman_super_heart_obj\\pacman_super_heart_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2a308c86-3d28-4244-98de-86e2a2118ce1",
+            "Value": {
+                "id": "1e238905-4346-426b-bba5-0eb430d3ec5a",
+                "resourcePath": "sprites\\pacman_green_teleporter_spr\\pacman_green_teleporter_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2a9120b7-1115-4a4b-a5f7-3b159dcec25e",
+            "Value": {
+                "id": "6e869ae9-f293-4937-acff-2470739e5680",
+                "resourcePath": "objects\\pacman_red_wall_obj\\pacman_red_wall_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3fda2a6a-65ff-4eb6-8750-e052f34502e3",
+            "Value": {
+                "id": "04e98222-c3a4-465a-87d1-1d294d98ff0c",
+                "resourcePath": "sprites\\pacman_player_spr\\pacman_player_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "46deb500-1a5b-4408-9d86-3b68846b6b41",
+            "Value": {
+                "id": "9101c4cf-3a69-47aa-9442-404ee1fa4e64",
+                "resourcePath": "sprites\\pacman_red_teleporter_spr\\pacman_red_teleporter_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4ee0a843-cd89-4883-a279-4a89e229cb6c",
+            "Value": {
+                "id": "53a9bf1b-d98d-4bfa-b73a-2fc2bc30127f",
+                "resourcePath": "sprites\\pacman_red_wall_spr\\pacman_red_wall_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4fc6431f-7b98-472b-b71b-78ac4fbcecdf",
+            "Value": {
+                "id": "b4ce9a58-d625-4792-aeab-3a0f064d5541",
+                "resourcePath": "sprites\\pacman_green_wall_spr\\pacman_green_wall_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "520640c0-5664-4f02-b54e-b127050263a9",
+            "Value": {
+                "id": "519075ae-b07d-4f04-b81a-0bf686d0d936",
+                "resourcePath": "views\\520640c0-5664-4f02-b54e-b127050263a9.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "52195010-a5f2-4d17-ac27-d2c269b13e14",
+            "Value": {
+                "id": "0d589bbc-5104-4269-bcb1-8fc8281bb178",
+                "resourcePath": "objects\\pacman_play_area_obj\\pacman_play_area_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5250c077-1147-42a3-8c7f-1444edbd592b",
+            "Value": {
+                "id": "2dd20739-0ced-47d0-b0b5-4f91a8d83fd5",
+                "resourcePath": "sprites\\pacman_heart_spr\\pacman_heart_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "58042bfe-e25e-456b-bfd8-960fd0384654",
+            "Value": {
+                "id": "5794b8b3-6e91-47a6-b3e2-c08ae257a6b5",
+                "resourcePath": "objects\\pacman_heart_obj\\pacman_heart_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5856678b-066d-4c28-8c6b-72d6ea83a99c",
+            "Value": {
+                "id": "ff6a8b7d-1114-42cf-b168-3354f8d1ca24",
+                "resourcePath": "views\\5856678b-066d-4c28-8c6b-72d6ea83a99c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5b2add90-9296-47b1-8651-3a3417be3869",
+            "Value": {
+                "id": "e6d830e2-df72-43b5-bb80-9bccfd408cd0",
+                "resourcePath": "rooms\\pacman_room1\\pacman_room1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "64fbaf12-8527-46b4-afd0-9413759e126b",
+            "Value": {
+                "id": "8af91a30-27c8-400e-ab2e-9f3314ae1528",
+                "resourcePath": "views\\64fbaf12-8527-46b4-afd0-9413759e126b.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "65370b6c-ac9b-4f12-a8db-aaec4059b5b4",
+            "Value": {
+                "id": "fd7b8a9d-52ba-43e8-8f2b-c704f1282c74",
+                "resourcePath": "views\\65370b6c-ac9b-4f12-a8db-aaec4059b5b4.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6974b8d2-ccfe-43ab-abd1-b9ef93e0ad59",
+            "Value": {
+                "id": "fd64c658-4e25-4a5f-846c-78f1b3cbbbce",
+                "resourcePath": "sprites\\pacman_play_area_spr\\pacman_play_area_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "75598c4d-41d4-458b-96cf-19a46111f78d",
+            "Value": {
+                "id": "3014335e-ed79-4d8e-aaf8-969a91fd5bdb",
+                "resourcePath": "objects\\pacman_enemy_obj\\pacman_enemy_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "78ee3351-e01e-4214-914e-4886281ea798",
+            "Value": {
+                "id": "eab42770-82c3-4b03-9db3-810510a9a0df",
+                "resourcePath": "scripts\\enemy_away_move\\enemy_away_move.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "7e4ec6fe-ed79-470b-885a-678b0a9b80a9",
+            "Value": {
+                "id": "92bfbf7f-b01b-4623-919d-ecb0a42ca54d",
+                "resourcePath": "rooms\\pacman_room3\\pacman_room3.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "80b7da79-7e31-44ab-b8dd-4403aea796c8",
+            "Value": {
+                "id": "b801a1f4-d04c-48c8-b0be-773f087dd460",
+                "resourcePath": "sprites\\pacman_spawning_spr\\pacman_spawning_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8208c84c-a273-450f-8dda-67f25f1926e8",
+            "Value": {
+                "id": "5cb1787b-673f-4dc1-9bef-142bcadf6796",
+                "resourcePath": "rooms\\pacman_room2\\pacman_room2.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "88d0d8c9-3142-43fe-986a-687718a77e4a",
+            "Value": {
+                "id": "04307c87-457b-4492-8ff0-cce55b533432",
+                "resourcePath": "objects\\pacman_blue_teleporter_obj\\pacman_blue_teleporter_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8b0d5733-b2e6-4ae9-a95d-92baf6c795d0",
+            "Value": {
+                "id": "b49658d5-51f7-4a26-bcc4-101a8490806f",
+                "resourcePath": "views\\8b0d5733-b2e6-4ae9-a95d-92baf6c795d0.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "91222368-d0b0-4056-89a8-62c5c23d2500",
+            "Value": {
+                "id": "6ea32397-3806-4fc8-98f4-f81f0d0a46cd",
+                "resourcePath": "objects\\pacman_play_button_obj\\pacman_play_button_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "960f587c-0fd7-4df2-b969-346f815bdee3",
+            "Value": {
+                "id": "e6075415-0922-46d6-842b-c04e5f853a3f",
+                "resourcePath": "objects\\pacman_blue_wall_obj\\pacman_blue_wall_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "998461ee-5d92-4047-8b66-a522a201850d",
+            "Value": {
+                "id": "3d153adc-a950-4569-bdb4-b11c5a10e04b",
+                "resourcePath": "views\\998461ee-5d92-4047-8b66-a522a201850d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9d01cd93-3679-42fb-9b4b-506ec8c8253d",
+            "Value": {
+                "id": "f7195763-98ec-45e5-b34b-a73624172a79",
+                "resourcePath": "views\\9d01cd93-3679-42fb-9b4b-506ec8c8253d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "acc39cff-d7fc-4220-b5b9-b4f45a6bb96a",
+            "Value": {
+                "id": "9147a4ab-bb59-4f72-9a8b-d18a54ba32d4",
+                "resourcePath": "scripts\\enemy_rand_move\\enemy_rand_move.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "afb292f4-a7f4-4f35-a234-16f68b5ba5f8",
+            "Value": {
+                "id": "1bfea1c2-9f15-4002-b250-e19104171bc2",
+                "resourcePath": "scripts\\enemy_chase_move\\enemy_chase_move.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "b3173109-20f5-42ed-b335-8a80eccfbc47",
+            "Value": {
+                "id": "8a710b68-4bce-4bdb-b2ba-0496f6c12874",
+                "resourcePath": "objects\\pacman_spawner_obj\\pacman_spawner_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b76bc532-1e19-42f5-8b73-30f599eaed7a",
+            "Value": {
+                "id": "6d55941f-9449-4cef-9961-9fcf6d025367",
+                "resourcePath": "sprites\\pacman_play_button_spr\\pacman_play_button_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bbde510b-0ab1-4dbc-9072-b0f9db71880c",
+            "Value": {
+                "id": "3cf95bfa-eaae-4936-b237-40814627753a",
+                "resourcePath": "sprites\\pacman_enemy_spr\\pacman_enemy_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "be081196-0796-45fd-992e-cde586acbbdb",
+            "Value": {
+                "id": "75e4da38-4223-4798-b8c1-7204fe6a10ba",
+                "resourcePath": "sprites\\pacman_super_heart_spr\\pacman_super_heart_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c3cd0157-c933-45ee-ba30-f613164e529c",
+            "Value": {
+                "id": "3901cf0c-cf2b-4d45-88ee-b973d704ee80",
+                "resourcePath": "views\\c3cd0157-c933-45ee-ba30-f613164e529c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c41d1793-7501-483f-b8a0-b6a26af95f07",
+            "Value": {
+                "id": "a68626f5-18c5-4cc9-bd98-3e798bf22371",
+                "resourcePath": "objects\\pacman_green_wall_obj\\pacman_green_wall_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c7beaf3c-a503-40a0-878b-c8ae11e9c497",
+            "Value": {
+                "id": "e1b99f9e-fc3f-4155-8518-3a2dd1bac68e",
+                "resourcePath": "views\\c7beaf3c-a503-40a0-878b-c8ae11e9c497.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c94da9dc-f155-4a63-99db-bd46ec49252f",
+            "Value": {
+                "id": "58d2a202-23c9-40db-b750-d8f4aa39ae4b",
+                "resourcePath": "views\\c94da9dc-f155-4a63-99db-bd46ec49252f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ca6b49f5-b875-4fe6-8c73-c9fc9100879e",
+            "Value": {
+                "id": "718fc19d-a6ac-4998-add2-f21e3c282f9b",
+                "resourcePath": "objects\\pacman_green_teleporter_obj\\pacman_green_teleporter_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
+            "Value": {
+                "id": "c4361a2f-ca3f-427e-af2b-ed6fc0a37541",
+                "resourcePath": "options\\windows\\options_windows.yy",
+                "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cea25dc0-b015-45c4-bfd1-5104b982f0a3",
+            "Value": {
+                "id": "c271b537-38d8-4130-90cb-918dde3574a9",
+                "resourcePath": "views\\cea25dc0-b015-45c4-bfd1-5104b982f0a3.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "cf3e2711-6e73-4bff-841c-428a1fad4fa5",
+            "Value": {
+                "id": "c3250639-f8a1-4995-a190-e9ef6d9ca1d9",
+                "resourcePath": "rooms\\startingPacmanRoom\\startingPacmanRoom.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "d3dd83b9-a5c5-4334-bdb6-83deb4752523",
+            "Value": {
+                "id": "b2929c9c-c1f8-441c-845f-22d1888bb067",
+                "resourcePath": "views\\d3dd83b9-a5c5-4334-bdb6-83deb4752523.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d8a1c6d8-921c-4b60-98ba-3c4f42a6f35a",
+            "Value": {
+                "id": "5180d3dd-379b-457b-b831-23a681cff31b",
+                "resourcePath": "rooms\\pacman_room5\\pacman_room5.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "dae7042f-4500-4372-9f8f-2cf6b9de5b20",
+            "Value": {
+                "id": "ba916dea-cd14-442f-90ee-6e9d2deefb17",
+                "resourcePath": "views\\dae7042f-4500-4372-9f8f-2cf6b9de5b20.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "df4e0d8f-c3d2-4e41-907b-598aa9a602f7",
+            "Value": {
+                "id": "fd5c5e12-0227-4619-8b7b-61e22d16b2b6",
+                "resourcePath": "sprites\\pacman_blue_wall_spr\\pacman_blue_wall_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e2022a65-9a4d-4951-98dc-95a0dd4d4e98",
+            "Value": {
+                "id": "d3d0f204-2763-462c-984e-b03c4133af35",
+                "resourcePath": "objects\\pacman_player_obj\\pacman_player_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e5534213-2bdb-4351-ac32-a41027d3a14e",
+            "Value": {
+                "id": "8af5cbe2-ad71-47da-9f0d-495c2cf8eeea",
+                "resourcePath": "views\\e5534213-2bdb-4351-ac32-a41027d3a14e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f182a92c-6be2-4f00-a5e3-894225ab738b",
+            "Value": {
+                "id": "e659ae7f-4d93-4bae-87dc-649cf4942fdf",
+                "resourcePath": "objects\\pacman_game_controller\\pacman_game_controller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f391e99f-ac30-4fb8-9ce9-992d662f552f",
+            "Value": {
+                "id": "b87a38f4-e312-42d1-aa18-e1fbbf15568a",
+                "resourcePath": "views\\f391e99f-ac30-4fb8-9ce9-992d662f552f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f5e0846d-cb86-4122-b7ba-0677e920740b",
+            "Value": {
+                "id": "430c1de3-bdf0-48e5-97b0-cbdca648ea4a",
+                "resourcePath": "objects\\pacman_red_teleporter_obj\\pacman_red_teleporter_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f79642c1-adfd-4b58-b54d-32649373b032",
+            "Value": {
+                "id": "4f123729-ef52-41bc-ac23-b18326d2e7ea",
+                "resourcePath": "views\\f79642c1-adfd-4b58-b54d-32649373b032.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f7ef2427-772a-4d1a-93c1-72bbd5d5e6e5",
+            "Value": {
+                "id": "dfce745e-8877-4dc7-b056-8722ec70d88d",
+                "resourcePath": "sprites\\pacman_blue_teleporter_spr\\pacman_blue_teleporter_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fc44bd82-6f44-4144-8458-a06d4be71160",
+            "Value": {
+                "id": "3e868265-633e-4a9c-a26b-3a99f0d0a822",
+                "resourcePath": "views\\fc44bd82-6f44-4144-8458-a06d4be71160.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fe555231-e5b2-4298-b3c9-4813534509ec",
+            "Value": {
+                "id": "7916c983-abf1-4623-bdd0-07302e9d102f",
+                "resourcePath": "views\\fe555231-e5b2-4298-b3c9-4813534509ec.yy",
+                "resourceType": "GMFolder"
+            }
+        }
+    ],
+    "script_order": [
+        "afb292f4-a7f4-4f35-a234-16f68b5ba5f8",
+        "acc39cff-d7fc-4220-b5b9-b4f45a6bb96a",
+        "78ee3351-e01e-4214-914e-4886281ea798"
+    ],
+    "tutorial": ""
+}

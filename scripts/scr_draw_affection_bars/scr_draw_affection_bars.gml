@@ -3,6 +3,7 @@
 /// @arg x1  Where the left end should draw
 /// @arg x2  Where the right end should draw
 /// @arg y  Where on the y axis the bar should draw (top left)
+/// @arg color What color you 
 
 var _sprite = argument0;
 var _subImg = argument1;
@@ -21,5 +22,5 @@ draw_sprite_part(_sprite, _subImg, _sizeW * 2, 0, _sizeW, _sizeH, _x1 + (_column
 
 // Draw the bar inbetween the ends
 for (var i = 1; i < _columns; ++i) {
-    draw_sprite_part_ext(_sprite, _subImg, _sizeW, 0, 1, _sizeH, _x1 + _sizeW, _y, _w - (_sizeW ), 1, c_white, 1);
+    draw_sprite_part_ext(_sprite, _subImg, _sizeW, 0, 1, _sizeH, _x1 + _sizeW, _y, _w - (_sizeW), 1, c_white, 1);
 }

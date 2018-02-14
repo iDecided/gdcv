@@ -1,1 +1,0 @@
-partner = instance_find(green_teleporter_obj, 0);

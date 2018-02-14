@@ -88,5 +88,5 @@ if(menu_state == menu_states.talking) {
 	draw_sprite_ext(asset_get_index("spr_char_" + global.talkingTo), 0, 416, 25, -0.25, 0.25, 0, c_white, 1);
 	
 	// Draw the affection bar
-	scr_draw_affection_bars_seg(global.affectionMap[? global.talkingTo], global.talkingTo, 264, 189, 667);
+	scr_draw_affection_bars_seg(global.affectionMap[? global.talkingTo], global.talkingTo, 264, 189, 668);
 }

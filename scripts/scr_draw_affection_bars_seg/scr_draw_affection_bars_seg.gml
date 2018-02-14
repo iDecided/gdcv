@@ -5,11 +5,12 @@
 /// @arg y  Where on the y axis the bar should draw (top left)
 
 var _affection = argument0;
-// Not yet used...will be used when drawing with different colors
 var _character = argument1;
 var _x = argument2;
 var _w = argument3;
 var _y = argument4;
+
+var _index = ds_list_find_index(global.names, _character);
 
 #region The struggle.
 // WHY THE ACTUAL FUCK IS THIS SO GODDAMN HARD LIKE FUCK THIS
@@ -42,13 +43,13 @@ for (var i = 0; i < _numBars; ++i) {
 //scr_draw_affection_bars_percentage(spr_detail_bar, 0, 265, 433, 50, 155);
 // Never mind...I'm just gunna work on the game jam stuff now...I'm sick of this. I'll figure it out later.
 #endregion
-	
+
 // Oh my God...I finally fucking did it...I *finally* figured it out...goddammit...
 // 20:43 at night...so many hours later...and I figured it out
 // Here's something to think about in the future: it can really, REALLY help to make temp variables that are well named to help you figure out what you're doing.
 var fullBars = floor(_affection / 20);
 for (var i = 0; i < fullBars; ++i) {
-	scr_draw_affection_bars(spr_detail_bar, 0, _x + (i * 200), _x + _w + (i * 200), _y);
+	scr_draw_affection_bars(spr_detail_bar, _index, _x + (i * 200), _x + _w + (i * 200), _y);
 }
 // Find how much more we need to draw
 var remainder = _affection % 20;
@@ -59,6 +60,6 @@ var percentage = remainder * 100 / 20;
 if(remainder > 0) {
 	// Draw the affection remainder bar
 	var xOffset = _x + (fullBars * 200);
-	scr_draw_affection_bars(spr_detail_bar, 0, xOffset , xOffset + _w * percentage / 100, _y);
+	scr_draw_affection_bars(spr_detail_bar, _index, xOffset , xOffset + _w * percentage / 100, _y);
 }
 //ds_map_destroy(charDetails);
