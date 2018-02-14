@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "5b2add90-9296-47b1-8651-3a3417be3869",
+            "Value": {
+                "id": "162b129e-b707-4ae0-9824-36af41e910d6",
+                "resourcePath": "rooms\\pacman_room1\\pacman_room1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "64fbaf12-8527-46b4-afd0-9413759e126b",
             "Value": {
                 "id": "8af91a30-27c8-400e-ab2e-9f3314ae1528",
@@ -196,6 +204,14 @@
                 "id": "eab42770-82c3-4b03-9db3-810510a9a0df",
                 "resourcePath": "scripts\\enemy_away_move\\enemy_away_move.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "7cfaf95f-e23b-418a-9764-67fe4d9e3a6f",
+            "Value": {
+                "id": "ab5fccfc-aaac-4fb7-ab12-9d19838f5c78",
+                "resourcePath": "extensions\\ext_pacman\\ext_pacman.yy",
+                "resourceType": "GMExtension"
             }
         },
         {
@@ -268,6 +284,14 @@
                 "id": "f7195763-98ec-45e5-b34b-a73624172a79",
                 "resourcePath": "views\\9d01cd93-3679-42fb-9b4b-506ec8c8253d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
+            "Value": {
+                "id": "518cac74-b786-4cff-b502-a0d048a23e3d",
+                "resourcePath": "options\\linux\\options_linux.yy",
+                "resourceType": "GMLinuxOptions"
             }
         },
         {
@@ -452,6 +476,14 @@
                 "id": "b87a38f4-e312-42d1-aa18-e1fbbf15568a",
                 "resourcePath": "views\\f391e99f-ac30-4fb8-9ce9-992d662f552f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
+            "Value": {
+                "id": "c4fee38b-971c-4f95-b007-b2759620e909",
+                "resourcePath": "options\\mac\\options_mac.yy",
+                "resourceType": "GMMacOptions"
             }
         },
         {

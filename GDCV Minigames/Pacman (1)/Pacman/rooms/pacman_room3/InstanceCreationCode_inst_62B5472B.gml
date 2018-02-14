@@ -1,1 +1,0 @@
-partner = instance_find(pacman_red_teleporter_obj, 1);
