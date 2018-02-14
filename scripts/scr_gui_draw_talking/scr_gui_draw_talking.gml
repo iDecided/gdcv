@@ -18,29 +18,30 @@ if(global.plannedDates[? global.talkingTo]) {
 if(global.planningDate) {
 	pickerLayer_bg = layer_create(-100, "datePicker_bg");
 	var tempSpr = layer_sprite_create(pickerLayer_bg,0,0,spr_solid_black);
-	layer_sprite_alpha(tempSpr, 0.65);
+	layer_sprite_alpha(tempSpr, 0.75);
+	layer_sprite_create(pickerLayer_bg,640,192,spr_date_question);
 
 	pickerLayer_obj = layer_create(-101, "datePicker_obj");
-	var tempObj = instance_create_layer(352, 320, pickerLayer_obj, obj_dropdown);
+	var tempObj = instance_create_layer(247, 326, pickerLayer_obj, obj_dropdown);
 	with(tempObj) {
 		listType = "day";
-		defaultOption = "DAY";
+		defaultOption = "Day";
 	}
-	tempObj = instance_create_layer(640, 320, pickerLayer_obj, obj_dropdown);
+	tempObj = instance_create_layer(418, 326, pickerLayer_obj, obj_dropdown);
 	with(tempObj) {
 		listType = "time";
-		defaultOption = "TIME";
+		defaultOption = "Time";
 	}
-	tempObj = instance_create_layer(928, 320, pickerLayer_obj, obj_dropdown);
+	tempObj = instance_create_layer(684, 326, pickerLayer_obj, obj_dropdown);
 	with(tempObj) {
 		listType = "location";
-		defaultOption = "LOCATION";
+		defaultOption = "Location";
 	}
 	
-	instance_create_layer(480, 384, pickerLayer_obj, obj_cancel);
-	instance_create_layer(672, 384, pickerLayer_obj, obj_submit);
+	instance_create_layer(352, 454, pickerLayer_obj, obj_submit);
+	instance_create_layer(672, 454, pickerLayer_obj, obj_cancel);
 	
-	show_debug_message("There are this many drop down boxes: " + string(instance_number(obj_dropdown)));
+	//show_debug_message("There are this many drop down boxes: " + string(instance_number(obj_dropdown)));
 }
 
 // Pretty much made this part unnecessary when I made it so that you can always attempt to give a gift

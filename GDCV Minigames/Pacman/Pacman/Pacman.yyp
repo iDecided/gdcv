@@ -207,14 +207,6 @@
             }
         },
         {
-            "Key": "7cfaf95f-e23b-418a-9764-67fe4d9e3a6f",
-            "Value": {
-                "id": "ab5fccfc-aaac-4fb7-ab12-9d19838f5c78",
-                "resourcePath": "extensions\\ext_pacman\\ext_pacman.yy",
-                "resourceType": "GMExtension"
-            }
-        },
-        {
             "Key": "7e4ec6fe-ed79-470b-885a-678b0a9b80a9",
             "Value": {
                 "id": "92bfbf7f-b01b-4623-919d-ecb0a42ca54d",

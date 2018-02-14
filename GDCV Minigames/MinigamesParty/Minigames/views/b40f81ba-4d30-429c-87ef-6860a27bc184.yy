@@ -16,7 +16,8 @@
         "4542289b-1655-408d-94d8-e4d7b929523e",
         "f5918c2f-1f31-4ebd-9086-83f995069bd0",
         "2abc9978-a415-4368-a6a2-11a8e74ff791",
-        "2df1d8e6-13cc-43a8-be22-6c5dd1c9851d"
+        "2df1d8e6-13cc-43a8-be22-6c5dd1c9851d",
+        "4b57c64f-7cbe-4b2d-b1d0-2cb1a21fdd6a"
     ],
     "filterType": "GMObject",
     "folderName": "shoot_em_minigame",

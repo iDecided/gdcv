@@ -16,10 +16,11 @@
         "cb3bb9e8-0023-440b-b521-ea0c154fb1a0",
         "73835733-72c8-40ea-badb-f1380a0e2f9f",
         "479693d4-79f4-4293-a6ac-6b471edfc9d6",
-        "ba3672fe-c678-4fdb-b21b-f38bdeba4914"
+        "ba3672fe-c678-4fdb-b21b-f38bdeba4914",
+        "d53cfc94-0cbc-410c-8e3c-218062f61106"
     ],
     "filterType": "GMSprite",
-    "folderName": "shoot_em",
+    "folderName": "shoot_em_sprites",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

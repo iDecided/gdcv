@@ -12,5 +12,6 @@ else {
 	instance_destroy()
 	shoot_em_game_controller.has_started = true;
 	shoot_em_game_controller.alarm[0] = 1 * room_speed;
-	audio_play_sound(shoot_em_main_music_snd, 50, true);
+	// Removing this, because the rest of the game doesn't have music, so why should this part have it?
+	//audio_play_sound(shoot_em_main_music_snd, 50, true);
 }

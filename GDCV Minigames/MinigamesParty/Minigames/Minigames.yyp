@@ -90,7 +90,7 @@
             "Key": "36467553-a1c0-49af-931d-e17ca4cf769b",
             "Value": {
                 "id": "215eb734-f9d6-41a1-8475-4756b74b09e1",
-                "resourcePath": "objects\\minigame_info_slave\\minigame_info_slave.yy",
+                "resourcePath": "objects\\minigame_info_slave_w_pause\\minigame_info_slave_w_pause.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -167,10 +167,10 @@
             }
         },
         {
-            "Key": "63436faa-0cc0-4177-855d-26c99e4c2823",
+            "Key": "682a1de2-5b28-4a82-9f8d-de7d99debc5b",
             "Value": {
-                "id": "1be5b41c-192c-4f13-b18a-fe3a367b2e48",
-                "resourcePath": "views\\63436faa-0cc0-4177-855d-26c99e4c2823.yy",
+                "id": "426d2a7e-61fa-4cd5-b794-41f2ea5a5d7f",
+                "resourcePath": "views\\682a1de2-5b28-4a82-9f8d-de7d99debc5b.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -267,6 +267,14 @@
             "Value": {
                 "id": "593d9100-e2b8-4992-b4a5-cd6f9cc217c9",
                 "resourcePath": "views\\8b201e92-5334-426b-9920-145924c81544.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8d177619-300a-435f-ac5f-c9d1332a6bdf",
+            "Value": {
+                "id": "b900f325-f3fa-4137-a1f4-5f91df97a0ba",
+                "resourcePath": "views\\8d177619-300a-435f-ac5f-c9d1332a6bdf.yy",
                 "resourceType": "GMFolder"
             }
         },

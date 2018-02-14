@@ -5,7 +5,7 @@ if (position_meeting(mouse_x, mouse_y, self)) {
 	// Create the backend list based off of the type of dropdown it is
 	if(listType == "day")
 	{
-		ds_list_add(optionsList, "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
+		ds_list_add(optionsList, "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat");
 		ds_list_add(valueList, 0, 1, 2, 3, 4, 5, 6);
 	}
 	else if(listType == "time")
@@ -30,7 +30,7 @@ if (position_meeting(mouse_x, mouse_y, self)) {
 		ds_list_clear(dropdownItemsList);
 	}
 	else {
-		var yIncrement = sprite_get_height(spr_tmp_dropdown);
+		var yIncrement = sprite_get_height(spr_dropdown_item) - 6;
 		var yy = y - yIncrement;
 		for (var i = 0; i < ds_list_size(optionsList); ++i) {
 		    dropdownItemsList[| i] = instance_create_depth(x, yy, -1000, obj_dropdown_item);
