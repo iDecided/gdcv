@@ -15,10 +15,16 @@ scr_advance_tod();
 scr_add_affection(5, true);
 
 var receivedRandomGift = false;
+var giftStr;
 do {
 	var randPers = global.names[| irandom_range(0, ds_list_size(global.names) - 1)];
+	giftStr = randPers + "_" + string(global.affectionLevelMap[? randPers] + 1);
 	receivedRandomGift = scr_add_gift(randPers, global.affectionLevelMap[? randPers] + 1);
 } until (receivedRandomGift);
+
+global.showNewGift = giftStr;
+
+UPDATE_GUI;
 
 room_goto(rm_talking);
 // event_inherited();

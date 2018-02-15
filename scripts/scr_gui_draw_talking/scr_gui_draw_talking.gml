@@ -44,6 +44,15 @@ if(global.planningDate) {
 	//show_debug_message("There are this many drop down boxes: " + string(instance_number(obj_dropdown)));
 }
 
+if(global.showNewGift != "") {
+	newGiftLayer_bg = layer_create(-100, "newGiftLayer_bg");
+	var tempSpr = layer_sprite_create(newGiftLayer_bg,0,0,spr_solid_black);
+	layer_sprite_alpha(tempSpr, 0.75);
+
+	newGiftLayer_obj = layer_create(-101, "newGiftLayer_obj");
+	instance_create_layer(640, 360, newGiftLayer_obj, obj_new_gift);
+}
+
 // Pretty much made this part unnecessary when I made it so that you can always attempt to give a gift
 //if(global.affectionMap[? global.talkingTo] % 20 == 0 && global.affectionMap[? global.talkingTo] == (global.affectionLevelMap[? global.talkingTo] + 1) * 20) {
 	//show_debug_message("Should be drawing the date stuff right now");
