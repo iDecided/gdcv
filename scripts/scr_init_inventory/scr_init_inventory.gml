@@ -29,14 +29,14 @@ for(var i = 0; i < 1; ++i)
 #region Init Ryan's gifts
 for(var i = 0; i < 1; ++i)
 {
-	scr_add_gift("ryan", i);
+	//scr_add_gift("ryan", i);
 }  
 #endregion
 
 #region Init Mario's gifts
 for(var i = 0; i < 1; ++i)
 {
-	scr_add_gift("mario", i);
+	//scr_add_gift("mario", i);
 }  
 #endregion
 

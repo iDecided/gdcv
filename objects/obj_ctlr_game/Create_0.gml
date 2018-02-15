@@ -1,5 +1,7 @@
 ///@desc gameController - Create
 
+randomize();
+
 #region Singleton Pattern Stuff
 // declare our singleton's global variable so we don't need to check if it exists
 gml_pragma("global", "global.gameController = noone;"); 
@@ -31,7 +33,9 @@ enum people {
 // A global list of names so that you can loop over them
 globalvar names;
 global.names = ds_list_create();
-ds_list_add(global.names, "jacob", "cole", "isabel", "veronica", "ryan", "mario");
+// I think I'm going to rework the game to always draw stuff based off if this list and its length
+ds_list_add(global.names, "jacob", "cole", "isabel", "veronica");
+//ds_list_add(global.names, "jacob", "cole", "isabel", "veronica", "ryan", "mario");
 
 // Date and time variables and initialization
 globalvar tod;

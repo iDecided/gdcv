@@ -12,8 +12,11 @@ if(global.plannedDates[? global.talkingTo]) {
 	return;
 }
 
-var gift = get_string("Which gift do you want to give them?", "");
-// I do believe that this will need to be moved to the gifts that will display in the gift selector
-global.planningDate = scr_respond_to_gift(gift);
 _choosing = !_choosing;
-UPDATE_GUI;
+if(!_choosing) {
+	for (var i = 0; i < ds_list_size(_giftObjs); ++i) {
+		instance_destroy(_giftObjs[| i], true);
+	}
+	ds_list_clear(_giftObjs);
+}
+_giftsDrawn = false;
