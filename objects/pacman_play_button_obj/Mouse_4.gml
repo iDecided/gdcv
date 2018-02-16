@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(room == startingPacmanRoom) {
+if(room == rm_date_0) {
 
 //minigame_info_slave.difficulty_level = 1;
 minigame_info_slave.did_win = false;

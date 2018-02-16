@@ -2,11 +2,27 @@
 // You can write your code in this editor
 
 if(menu_state == menu_states.ovw || menu_state == menu_states.items || menu_state == menu_states.people_overview || menu_state == menu_states.people_details) {
-	draw_set_color(c_black);
+	draw_sprite(spr_tm_bg, 0, 0, 0);
+	draw_sprite(spr_tm_timeline, 0, 207, 29);
+	
+	// This was before I was drawing the time to the popup
+	//draw_set_color(c_black);
+	//draw_set_font(fnt_datetime);
+	//var timeString = scr_format_time_string(global.date, true);
+	//draw_text(0, 0, weekdayNames[date_get_weekday(global.date)]);
+	//draw_text(110, 0, timeString);
+	
+	draw_set_color(c_gray);
 	draw_set_font(fnt_datetime);
+	//var hasHalfHour = clamp((date_get_minute(global.date)-29), 0, 1);
+	//show_debug_message(string(hasHalfHour));
+	draw_text(20, 10, weekdayNames[date_get_weekday(global.date)]);
+	var tempX = 226 + ((date_get_hour(global.date)-8) * 40) + clamp((date_get_minute(global.date)-29), 0, 1) * 20;
+	draw_sprite(spr_tm_time_popup, 0, tempX, 66);
+	draw_set_font(fnt_datetime_small);
+	draw_set_color(c_white);
 	var timeString = scr_format_time_string(global.date, true);
-	draw_text(0, 0, weekdayNames[date_get_weekday(global.date)]);
-	draw_text(110, 0, timeString);
+	draw_text(tempX + 3, 66 + 19, timeString);
 }
 
 if(menu_state == menu_states.people_overview) {

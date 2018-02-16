@@ -367,6 +367,14 @@
             }
         },
         {
+            "Key": "2ac5da5e-f293-43f7-95d0-3b6d8adcd104",
+            "Value": {
+                "id": "e8017638-e883-4eec-91ae-69a23d0cab34",
+                "resourcePath": "objects\\obj_speech_bubble\\obj_speech_bubble.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2b2f7b14-987f-46e4-8a6c-7b7412910917",
             "Value": {
                 "id": "44121c08-05dd-4153-b567-7b5b5d2f5bd2",
@@ -551,6 +559,14 @@
             }
         },
         {
+            "Key": "4551531c-ddfb-49d1-8210-3aa1b6f0a9a4",
+            "Value": {
+                "id": "af1f15fd-05c9-48d9-ac43-32cb48d1212c",
+                "resourcePath": "sprites\\spr_tm_bg\\spr_tm_bg.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "458392b0-2ad6-4625-816e-aa2a28f4e1c2",
             "Value": {
                 "id": "0444f080-1088-4ccd-9d29-74be9f9a3d51",
@@ -722,7 +738,7 @@
             "Key": "54e964b8-5a85-4749-8144-6e943357968e",
             "Value": {
                 "id": "c1456197-47ce-41d5-9f71-305792b0a286",
-                "resourcePath": "rooms\\rm_date_0\\rm_date_0.yy",
+                "resourcePath": "rooms\\rm_date_0_old\\rm_date_0_old.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1135,6 +1151,14 @@
             }
         },
         {
+            "Key": "88629385-e640-4faf-ab5b-2713c852fccf",
+            "Value": {
+                "id": "4109d9bb-b2a0-442e-9d18-35b3bcdea465",
+                "resourcePath": "views\\88629385-e640-4faf-ab5b-2713c852fccf.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "88d0d8c9-3142-43fe-986a-687718a77e4a",
             "Value": {
                 "id": "a5523403-b6f2-4ef4-83ad-ab6a2ff10c88",
@@ -1228,6 +1252,14 @@
                 "id": "c3bbda86-5683-4cec-9ec6-4de374edfaa6",
                 "resourcePath": "scripts\\populate_overworld\\populate_overworld.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "9332ef7c-8653-416b-86c3-726340e3b7b0",
+            "Value": {
+                "id": "589d92c3-2c48-4270-9a5f-cf840ae876e8",
+                "resourcePath": "sprites\\spr_tm_time_popup\\spr_tm_time_popup.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1364,6 +1396,14 @@
                 "id": "f8794240-c8fd-4045-bcdf-2b742a2a7380",
                 "resourcePath": "scripts\\scr_init_inventory\\scr_init_inventory.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a5cc2a28-ca09-4deb-901b-d638c25d53d8",
+            "Value": {
+                "id": "fc392394-624d-43aa-8e5a-5b8e3fdae43e",
+                "resourcePath": "fonts\\fnt_datetime_small\\fnt_datetime_small.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -1706,7 +1746,7 @@
             "Key": "cf3e2711-6e73-4bff-841c-428a1fad4fa5",
             "Value": {
                 "id": "02c239a0-be11-40f0-bd03-b4186f590809",
-                "resourcePath": "rooms\\startingPacmanRoom\\startingPacmanRoom.yy",
+                "resourcePath": "rooms\\rm_date_0\\rm_date_0.yy",
                 "resourceType": "GMRoom"
             }
         },

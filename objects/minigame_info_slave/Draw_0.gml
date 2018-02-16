@@ -14,7 +14,7 @@ if(draw_something) {
 
 }
 
-if(room == startingPacmanRoom) {
+if(room == rm_date_0) {
 	draw_text_color(200, 600, "You're about to play Level " + string(difficulty_level),
 			c_lime, c_lime, c_lime, c_lime, 1);
 		

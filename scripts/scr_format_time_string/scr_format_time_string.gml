@@ -7,9 +7,9 @@ var includeAmOrPm = argument1;
 
 var hour = date_get_hour(_date);
 var hourString = string(hour);
-var amOrPm = "AM"
+var amOrPm = "A"
 if(hour >= 12) {
-	amOrPm = "PM";
+	amOrPm = "P";
 	if(hour > 12) {
 		hourString = string(hour-12);
 	}
