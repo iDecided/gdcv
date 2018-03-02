@@ -25,6 +25,7 @@ if(!is_string(locationString)) {
 }
 
 draw_set_font(fnt_people);
+draw_set_color(c_gray);
 draw_text(x + 116, y, character);
 draw_text(x + 144, y + 70, locationString);
 // Use this to teach what why I didn't like what I did here. Shaun Spalding taught me this method.

@@ -1,0 +1,8 @@
+{
+	"jacob_room":["rm_cc","rm_cc","rm_cc","rm_cc","rm_cs","rm_cs","rm_cs","rm_cs","rm_dc","rm_dc","rm_dc","rm_dc","rm_gdl","rm_gdl","rm_gdl","rm_gdl","rm_lib","rm_lib","rm_lib","rm_lib","rm_ps","rm_ps","rm_ps","rm_ps","rm_sr","rm_sr","rm_sr","rm_sr","rm_ud","rm_ud","rm_ud","rm_ud"],
+	"cole_room":["rm_cc","rm_cc","rm_cc","rm_cc","rm_cs","rm_cs","rm_cs","rm_cs","rm_dc","rm_dc","rm_dc","rm_dc","rm_gdl","rm_gdl","rm_gdl","rm_gdl","rm_lib","rm_lib","rm_lib","rm_lib","rm_ps","rm_ps","rm_ps","rm_ps","rm_sr","rm_sr","rm_sr","rm_sr","rm_ud","rm_ud","rm_ud","rm_ud"],
+	"isabel_room":["rm_cc","rm_cc","rm_cc","rm_cc","rm_cs","rm_cs","rm_cs","rm_cs","rm_dc","rm_dc","rm_dc","rm_dc","rm_gdl","rm_gdl","rm_gdl","rm_gdl","rm_lib","rm_lib","rm_lib","rm_lib","rm_ps","rm_ps","rm_ps","rm_ps","rm_sr","rm_sr","rm_sr","rm_sr","rm_ud","rm_ud","rm_ud","rm_ud"],
+	"veronica_room":["rm_cc","rm_cc","rm_cc","rm_cc","rm_cs","rm_cs","rm_cs","rm_cs","rm_dc","rm_dc","rm_dc","rm_dc","rm_gdl","rm_gdl","rm_gdl","rm_gdl","rm_lib","rm_lib","rm_lib","rm_lib","rm_ps","rm_ps","rm_ps","rm_ps","rm_sr","rm_sr","rm_sr","rm_sr","rm_ud","rm_ud","rm_ud","rm_ud"],
+	"ryan_room":["rm_cc","rm_cc","rm_cc","rm_cc","rm_cs","rm_cs","rm_cs","rm_cs","rm_dc","rm_dc","rm_dc","rm_dc","rm_gdl","rm_gdl","rm_gdl","rm_gdl","rm_lib","rm_lib","rm_lib","rm_lib","rm_ps","rm_ps","rm_ps","rm_ps","rm_sr","rm_sr","rm_sr","rm_sr","rm_ud","rm_ud","rm_ud","rm_ud"],
+	"mario_room":["rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr","rm_sr"]
+}

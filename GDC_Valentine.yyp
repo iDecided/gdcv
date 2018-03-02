@@ -439,6 +439,14 @@
             }
         },
         {
+            "Key": "36467553-a1c0-49af-931d-e17ca4cf769b",
+            "Value": {
+                "id": "53156974-55e4-4657-b0cc-b617a420d57b",
+                "resourcePath": "objects\\minigame_info_slave_w_pause\\minigame_info_slave_w_pause.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3676641f-448a-4ab3-bdf6-71c6df0a8994",
             "Value": {
                 "id": "4c2724fa-c7f5-4c5c-9104-36438bb132d4",

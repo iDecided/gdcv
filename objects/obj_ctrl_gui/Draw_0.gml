@@ -16,13 +16,15 @@ if(menu_state == menu_states.ovw || menu_state == menu_states.items || menu_stat
 	draw_set_font(fnt_datetime);
 	//var hasHalfHour = clamp((date_get_minute(global.date)-29), 0, 1);
 	//show_debug_message(string(hasHalfHour));
-	draw_text(20, 10, weekdayNames[date_get_weekday(global.date)]);
-	var tempX = 226 + ((date_get_hour(global.date)-8) * 40) + clamp((date_get_minute(global.date)-29), 0, 1) * 20;
+	draw_text(20, 15, weekdayNames[date_get_weekday(global.date)]);
+	var tempX = 266 + ((date_get_hour(global.date)-8) * 40) + clamp((date_get_minute(global.date)-29), 0, 1) * 20;
 	draw_sprite(spr_tm_time_popup, 0, tempX, 66);
 	draw_set_font(fnt_datetime_small);
 	draw_set_color(c_white);
 	var timeString = scr_format_time_string(global.date, true);
-	draw_text(tempX + 3, 66 + 19, timeString);
+	draw_set_halign(fa_center);
+	draw_text(tempX, 66 + 21, timeString);
+	draw_set_halign(fa_left);
 }
 
 if(menu_state == menu_states.people_overview) {

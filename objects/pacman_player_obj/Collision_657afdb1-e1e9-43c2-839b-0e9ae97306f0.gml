@@ -14,7 +14,7 @@ else {
 	if(myLives == -1) {
 		minigame_info_slave.did_win = false;
 		minigame_info_slave.draw_something = true;
-		room_goto(startingPacmanRoom);
+		room_goto(rm_date_0);
 	}
 	/*
 	with(enemy_obj) {
