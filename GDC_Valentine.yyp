@@ -498,7 +498,7 @@
             "Key": "3d594b07-60ea-47a5-bfa7-cbdabf273471",
             "Value": {
                 "id": "33aa9a2d-b9d4-4818-ab75-04eb6538c2bc",
-                "resourcePath": "objects\\obj_give_gift\\obj_give_gift.yy",
+                "resourcePath": "objects\\obj_give_gift_old\\obj_give_gift_old.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -962,7 +962,7 @@
             "Key": "748e244d-6600-446c-9a69-fb1eb081de5c",
             "Value": {
                 "id": "a9c6f44c-871f-4337-8e74-b920906e479e",
-                "resourcePath": "objects\\obj_give_trinket\\obj_give_trinket.yy",
+                "resourcePath": "objects\\obj_give_trinket_old\\obj_give_trinket_old.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1583,6 +1583,14 @@
             }
         },
         {
+            "Key": "b7c3f999-56a3-4934-86da-e4005cf6b020",
+            "Value": {
+                "id": "0d67c834-cc87-4b81-acd8-e15fd85fc7be",
+                "resourcePath": "objects\\obj_give_gift\\obj_give_gift.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b8233cf7-ba87-4a70-a192-3283597c59b6",
             "Value": {
                 "id": "fc36f140-fa99-492d-a5df-bd3e3071d629",
@@ -1935,6 +1943,14 @@
             }
         },
         {
+            "Key": "e63d49ea-54e4-47ba-a9bf-cc92a374314f",
+            "Value": {
+                "id": "58087a3a-00b3-4702-a266-3c34692ffeb1",
+                "resourcePath": "objects\\obj_give_btn_parent\\obj_give_btn_parent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e6d194ba-93b6-445d-8ca9-78a670ba6903",
             "Value": {
                 "id": "e48d880e-2a24-44de-85a4-465d6f242028",
@@ -2092,6 +2108,14 @@
                 "id": "2bf49e3f-c4c9-4862-b5cc-e65941847d86",
                 "resourcePath": "sprites\\pacman_blue_teleporter_spr\\pacman_blue_teleporter_spr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f7ff22e5-facf-4934-b6fc-491d8b62bc43",
+            "Value": {
+                "id": "2b45d158-00b8-456b-a652-9df6333aeeb5",
+                "resourcePath": "objects\\obj_give_trinket\\obj_give_trinket.yy",
+                "resourceType": "GMObject"
             }
         },
         {
