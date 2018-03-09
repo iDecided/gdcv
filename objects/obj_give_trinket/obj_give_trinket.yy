@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_give_trinket",
     "eventList": [
-        
+        {
+            "id": "affdc9a7-2ed4-47a9-9d84-6bd9f1a3b80e",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "f7ff22e5-facf-4934-b6fc-491d8b62bc43"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

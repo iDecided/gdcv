@@ -14,9 +14,9 @@ if(global.plannedDates[? global.talkingTo]) {
 
 _choosing = !_choosing;
 if(!_choosing) {
-	for (var i = 0; i < ds_list_size(_giftObjs); ++i) {
-		instance_destroy(_giftObjs[| i], true);
+	for (var i = 0; i < ds_list_size(_childrenObjs); ++i) {
+		instance_destroy(_childrenObjs[| i], true);
 	}
-	ds_list_clear(_giftObjs);
+	ds_list_clear(_childrenObjs);
 }
-_giftsDrawn = false;
+_childrenDrawn = false;

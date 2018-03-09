@@ -31,6 +31,9 @@ enum people {
 };
 
 // A global list of names so that you can loop over them
+// Names is a very strange variable. It not only acts as a list of names, but also acts as the
+// variable that keeps track of who you've met. Since I use this as the basis of what anything that has
+// to do with people, if someone's name isn't in it, it will just skip over them and not matter anymore
 globalvar names;
 global.names = ds_list_create();
 // I think I'm going to rework the game to always draw stuff based off if this list and its length

@@ -8,6 +8,8 @@
 
 /// @description Insert description here
 // You can write your code in this editor
+
+_childrenType = pointer_null;
 _choosing = false;
-_giftsDrawn = false;
-_giftObjs = ds_list_create();
+_childrenDrawn = false;
+_childrenObjs = ds_list_create();

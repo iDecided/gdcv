@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_give_gift",
     "eventList": [
-        
+        {
+            "id": "12897915-7131-42cd-92a0-fd8ffcf1f41a",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "b7c3f999-56a3-4934-86da-e4005cf6b020"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
