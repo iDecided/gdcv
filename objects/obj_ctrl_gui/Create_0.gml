@@ -56,3 +56,5 @@ enum npcStates {
 }
 globalvar npcState;
 npcState = npcStates.def; */
+
+_talkingMask = pointer_null;

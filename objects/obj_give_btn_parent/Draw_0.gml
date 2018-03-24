@@ -10,6 +10,12 @@ draw_self();
 var _drawList = ds_list_create();
 
 if(_childrenType = obj_gift_parent_2) {
+	// It seems really shaky to use the length of global.names to draw the gifts, but I think it checks out.
+	// Has potential to be buggy!
+	// JK, in this situation, I need to loop over all the gifts in my inventory and check to see if its level
+	// is greater than or equal to that person's current affection level. If it is, draw it.
+	// Again, this also appears legit but it also has the potential to be a bug later on depending on corner cases
+	// Idk, I should see if someone can prove this mathematically.
 	for (var i = 0; i < global.maxGifts; ++i) {
 		var giftString = global.gifts[i];
 		var owner = string_copy(giftString, 0, string_length(giftString) - 2);
@@ -21,6 +27,8 @@ if(_childrenType = obj_gift_parent_2) {
 }
 else if(_childrenType = obj_trinket_parent) {
 	// This is cool. Enums translate into just ints, so I can use them here as the end zones of the for loop
+	// I did do a thing though where I initially just did i<trinket.tr_6, but that doesn't work
+	// You have to make it <= because otherwise, it'll only draw 5 of the trinkets, not all six
 	for (var i = trinket.tr_1; i <= trinket.tr_6; ++i) {
 		ds_list_add(_drawList, i);
 	}
@@ -41,12 +49,6 @@ if(_choosing) {
 	
 		var col = 0;
 		var row = 0;
-		// It seems really shaky to use the length of global.names to draw the gifts, but I think it checks out.
-		// Has potential to be buggy!
-		// JK, in this situation, I need to loop over all the gifts in my inventory and check to see if its level
-		// is greater than or equal to that person's current affection level. If it is, draw it.
-		// Again, this also appears legit but it also has the potential to be a bug later on depending on corner cases
-		// Idk, I should see if someone can prove this mathematically.
 		
 		// 03/09 I'm making all these changes to share the drawing code between gifts and trinkets
 		// I've hardcoded the six here because that's how many slots the giving button will show the player
