@@ -58,3 +58,6 @@ globalvar npcState;
 npcState = npcStates.def; */
 
 _talkingMask = pointer_null;
+
+// Using the number -1 to treat this like a null pointer since there isn't an ID that can be -1
+_conversationSurface = -1;

@@ -78,3 +78,14 @@ affectionLevelMap[? "mario"] = 0;
 globalvar currentRoom;
 globalvar talkingTo;
 globalvar detailedCharacter;
+
+
+// Global settings variables that will need to transfer stuff between play sessions
+// These will need to be set using some sort of settings or config file
+// Also, these will need to be determined like...right away.
+// Essentially, these should be done first and then either initialize all the above variables with the save data
+// or initialize them to what it currently is.
+globalvar hasUnlockedAllChars;
+hasUnlockedAllChars = false;
+globalvar hasSaveData;
+hasSaveData = false;

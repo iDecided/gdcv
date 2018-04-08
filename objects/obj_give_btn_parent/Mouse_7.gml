@@ -12,6 +12,23 @@ if(global.plannedDates[? global.talkingTo]) {
 	return;
 }
 
+// 04/07/2018
+// One of the first complaints I got was that you could open both the trinket and the gift popups at the same
+// time when you were talking to someone. These lines fix that by grabbing all of the other objects with this 
+// as a parent and performs the left click on it. I also learned here that with() grabs children too if you supply
+// it an object that acts as a parent to other children
+with (obj_give_btn_parent) {
+	if (id != other.id) {
+		show_debug_message(object_get_name(id.object_index));
+		// GODDAMMIT THIS WON'T WORK ANYWAYS BECAUSE IT'LL JUST ACTIVATE BOTH ON FIRST HIT
+		// Okay, so here's what I think I need to do...
+		// Move all the object drawing and deleting code from left click in to draw and put it in a check
+		// Then I just need to change the _choosing variable
+		// Idk, my heart is telling me this won't actually work.
+		event_perform(ev_left_release,0);
+	}
+}
+
 _choosing = !_choosing;
 if(!_choosing) {
 	for (var i = 0; i < ds_list_size(_childrenObjs); ++i) {

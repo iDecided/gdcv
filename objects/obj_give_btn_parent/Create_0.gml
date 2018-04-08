@@ -12,4 +12,5 @@
 _childrenType = pointer_null;
 _choosing = false;
 _childrenDrawn = false;
+_popupSprite = pointer_null;
 _childrenObjs = ds_list_create();

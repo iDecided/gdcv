@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+// This part of this object is used to initialize any variables that need to be initialized when a room starts
 
 // Will automatically set the menu_state based on the room you're currently in
 switch (room) {
@@ -14,6 +13,10 @@ switch (room) {
 		global.guiController.menu_state = menu_states.ovw;
 		break;
 	case rm_talking:
+		if(surface_exists(_conversationSurface)) { surface_free(_conversationSurface); }
+		var clip_height = 392;
+		var clip_width = 718;
+		_conversationSurface = surface_create(clip_width, clip_height);
 		global.guiController.menu_state = menu_states.talking;
 		break;
 	case rm_tm_items:

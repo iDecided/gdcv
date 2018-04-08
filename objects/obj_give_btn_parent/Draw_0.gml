@@ -24,6 +24,8 @@ if(_childrenType = obj_gift_parent_2) {
 			ds_list_add(_drawList, giftString);
 		}
 	}
+	
+	_popupSprite = spr_gift_selector;
 }
 else if(_childrenType = obj_trinket_parent) {
 	// This is cool. Enums translate into just ints, so I can use them here as the end zones of the for loop
@@ -32,13 +34,15 @@ else if(_childrenType = obj_trinket_parent) {
 	for (var i = trinket.tr_1; i <= trinket.tr_6; ++i) {
 		ds_list_add(_drawList, i);
 	}
+	
+	_popupSprite = spr_trinket_selector;
 }
 
 var _spriteMid = x + sprite_get_width(sprite_index) / 2;
 //show_debug_message("the object middles are: " + string(_spriteMid));
 
 if(_choosing) {
-	draw_sprite(spr_gift_selector, 0, _spriteMid, y);
+	draw_sprite(_popupSprite, 0, _spriteMid, y);
 	
 	if(!_childrenDrawn) {
 		// Set the position for where the first item gets spawned relative to the object itself

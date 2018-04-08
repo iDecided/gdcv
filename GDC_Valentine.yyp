@@ -1423,6 +1423,14 @@
             }
         },
         {
+            "Key": "a8549829-d5df-406b-b0d3-0d8d3df9a918",
+            "Value": {
+                "id": "ca43dccd-f68b-48ee-9d2c-ccf0f757a47b",
+                "resourcePath": "sprites\\spr_bg_minigame_shooter\\spr_bg_minigame_shooter.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "1069db56-95dc-44b7-865a-2dd181532bda",
@@ -1820,6 +1828,14 @@
                 "id": "bca307c2-fee5-414d-ab9f-6db3b446afd2",
                 "resourcePath": "scripts\\scr_add_trinket\\scr_add_trinket.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d88b901c-7de2-498a-a0a2-387545814f54",
+            "Value": {
+                "id": "f186c573-23c8-435e-81aa-044d345b1127",
+                "resourcePath": "sprites\\spr_bg_minigame_pacman\\spr_bg_minigame_pacman.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
