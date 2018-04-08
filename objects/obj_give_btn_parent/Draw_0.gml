@@ -24,7 +24,6 @@ if(_childrenType = obj_gift_parent_2) {
 			ds_list_add(_drawList, giftString);
 		}
 	}
-	
 	_popupSprite = spr_gift_selector;
 }
 else if(_childrenType = obj_trinket_parent) {
@@ -34,7 +33,6 @@ else if(_childrenType = obj_trinket_parent) {
 	for (var i = trinket.tr_1; i <= trinket.tr_6; ++i) {
 		ds_list_add(_drawList, i);
 	}
-	
 	_popupSprite = spr_trinket_selector;
 }
 
@@ -62,7 +60,7 @@ if(_choosing) {
 			var tempX = startX + (col * spacingX);
 			var tempY = (row * spacingY) + startY;
 			var tempObj = instance_create_depth(tempX, tempY, -1, _childrenType);
-			if(_childrenType = obj_gift_parent_2) {
+			if(_childrenType == obj_gift_parent_2) {
 				with(tempObj)
 				{
 					var giftString = _drawList[| i];
@@ -93,6 +91,20 @@ if(_choosing) {
 		}
 		_childrenDrawn = true;
 	}
+}
+
+// 04/08/2018
+// This used to all be in the left clicked, but now I've moved it here so that it's entirely dependent on just changing
+// the _choosing variable. If you change just that one variable, this will work.
+// This would also be a fantastic way to teach state machines, because it also depends on the sub-state of whether the objects are drawn
+if(!_choosing) {
+	if(_childrenDrawn) {
+		for (var i = 0; i < ds_list_size(_childrenObjs); ++i) {
+			instance_destroy(_childrenObjs[| i], true);
+		}
+		ds_list_clear(_childrenObjs);
+	}
+	_childrenDrawn = false;
 }
 
 ds_list_clear(_drawList);

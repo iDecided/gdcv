@@ -39,9 +39,11 @@ planningDate = false;
 globalvar showNewGift;
 showNewGift = "";
 
+// 04/08/2018
+// It turns out, I was able to handle all of that within the button parent so I no longer need this flag
 // A variable for keeping track of which popup needs to be shown within the talking screen
-globalvar talkingPopup;
-talkingPopup = pointer_null;
+//globalvar talkingPopup;
+//talkingPopup = pointer_null;
 
 // This was originally how I was going to handle responses, before I realized how I could do the scrolling thing
 // This would have really only worked for if there was one block of text presented at a time.
