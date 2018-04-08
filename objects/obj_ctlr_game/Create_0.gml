@@ -30,6 +30,33 @@ enum people {
 	mario
 };
 
+enum sender {
+	pc,
+	npc
+};
+
+enum respTriggers {
+	greeting,
+	parting,
+	trinket,
+	gift,
+	decline,
+	accept
+}
+
+enum respTones {
+	positive,
+	negative,
+	indifferent,
+	confused
+}
+
+enum respStrengths {
+	light,
+	medium,
+	strong
+}
+
 // A global list of names so that you can loop over them
 // Names is a very strange variable. It not only acts as a list of names, but also acts as the
 // variable that keeps track of who you've met. Since I use this as the basis of what anything that has
@@ -89,3 +116,9 @@ globalvar hasUnlockedAllChars;
 hasUnlockedAllChars = false;
 globalvar hasSaveData;
 hasSaveData = false;
+
+// 04/08/2018
+// This is an array that is used to keep track of all of the statements that should appear during any given conversation
+// with any person. It is dynamically filled and emptied everytime you start a conversation with one of the NPCs.
+globalvar texts;
+texts = [];

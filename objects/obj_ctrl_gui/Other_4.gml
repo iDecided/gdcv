@@ -15,10 +15,10 @@ switch (room) {
 		break;
 	case rm_talking:
 		// Moved the system for creating the surface here because it needs to be here to avoid the memory leak of creating a surface every frame
-		if(surface_exists(_conversationSurface)) { surface_free(_conversationSurface); }
-		var clip_height = 392;
-		var clip_width = 718;
-		_conversationSurface = surface_create(clip_width, clip_height);
+		//if(surface_exists(conversationSurface)) { surface_free(conversationSurface); }
+		//var clip_height = 392;
+		//var clip_width = 718;
+		//conversationSurface = surface_create(clip_width, clip_height);
 		global.guiController.menu_state = menu_states.talking;
 		break;
 	case rm_tm_items:

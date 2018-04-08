@@ -133,36 +133,36 @@ if(menu_state == menu_states.talking) {
 	// Draw the affection bar
 	scr_draw_affection_bars_seg(global.affectionMap[? global.talkingTo], global.talkingTo, 264, 189, 668);
 	
-	// 03/19/18
-	// 03/21/18 Moved this to here.
-	// I was looking online to find out how to draw clipping masks and I literally just copy-pasted this
-	// from online and it just worked. No changes, no updates, one-to-one just magically worked.
-	// This might be the first time that's ever happened in my life and I'm kind of taken aback by it tbh.
-	// Anyways, yeah. This is code that will be used for drawing conversations on the talking screen. Just an update.
-	//var clip_height = 392;
-	//var clip_width = 718;
-	var clip_x = 434;
-	var clip_y = 161;
+	//// 03/19/18
+	//// 03/21/18 Moved this to here.
+	//// I was looking online to find out how to draw clipping masks and I literally just copy-pasted this
+	//// from online and it just worked. No changes, no updates, one-to-one just magically worked.
+	//// This might be the first time that's ever happened in my life and I'm kind of taken aback by it tbh.
+	//// Anyways, yeah. This is code that will be used for drawing conversations on the talking screen. Just an update.
+	////var clip_height = 392;
+	////var clip_width = 718;
+	//var clip_x = 434;
+	//var clip_y = 161;
 	
-	// 04/08/2018
-	// Turns out that this is a MASSIVE memory leak, because the surface never gets destroyed.
-	// So what I'm going to do is have it create the surface on room start. Otherwise, make it a null pointer.
-	// Also, I have to move the width and height with it as well.
-	// create a surface if it doesn't exist:
-	//var clip_surface = surface_create(clip_width, clip_height);
+	//// 04/08/2018
+	//// Turns out that this is a MASSIVE memory leak, because the surface never gets destroyed.
+	//// So what I'm going to do is have it create the surface on room start. Otherwise, make it a null pointer.
+	//// Also, I have to move the width and height with it as well.
+	//// create a surface if it doesn't exist:
+	////var clip_surface = surface_create(clip_width, clip_height);
 	
-	// clear and start drawing to surface:
-	// surface_set_target(clip_surface);
-	surface_set_target(_conversationSurface);
-	draw_clear_alpha(c_black, 0);
-	// draw things here, subtracting (clip_x, clip_y) from coordinates:
-	// draw_circle(mouse_x - clip_x, mouse_y - clip_y, 40, false);
+	//// clear and start drawing to surface:
+	//// surface_set_target(clip_surface);
+	//surface_set_target(conversationSurface);
+	//draw_clear_alpha(c_black, 0);
+	//// draw things here, subtracting (clip_x, clip_y) from coordinates:
+	//// draw_circle(mouse_x - clip_x, mouse_y - clip_y, 40, false);
 	
-	// Here, you have to subtract the masks' coordinates because by putting it in a surface, that reframes the 0,0 to be the surface's 0,0
-	// So if you didn't do this and you drew where the mouse was, it would always be offset by the x,y of the surface
-	draw_sprite(spr_solid_black, 0, 0 - clip_x, 0 - clip_y);
-	// finish and draw the surface itself:
-	// Note: this is a really important function to call
-	surface_reset_target();
-	draw_surface(_conversationSurface, clip_x, clip_y);
+	//// Here, you have to subtract the masks' coordinates because by putting it in a surface, that reframes the 0,0 to be the surface's 0,0
+	//// So if you didn't do this and you drew where the mouse was, it would always be offset by the x,y of the surface
+	//draw_sprite(spr_solid_black, 0, 0 - clip_x, 0 - clip_y);
+	//// finish and draw the surface itself:
+	//// Note: this is a really important function to call
+	//surface_reset_target();
+	//draw_surface(conversationSurface, clip_x, clip_y);
 }

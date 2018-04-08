@@ -36,6 +36,8 @@ charDetails = pointer_null;
 globalvar planningDate;
 planningDate = false;
 
+// 04/08/2018
+// Note: I need to find out why this was a string and not a variable lol
 globalvar showNewGift;
 showNewGift = "";
 
@@ -59,7 +61,6 @@ enum npcStates {
 globalvar npcState;
 npcState = npcStates.def; */
 
-_talkingMask = pointer_null;
-
 // Using the number -1 to treat this like a null pointer since there isn't an ID that can be -1
-_conversationSurface = -1;
+globalvar conversationSurface;
+conversationSurface = -1;

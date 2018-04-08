@@ -36,15 +36,15 @@ else if(_childrenType = obj_trinket_parent) {
 	_popupSprite = spr_trinket_selector;
 }
 
-var _spriteMid = x + sprite_get_width(sprite_index) / 2;
-//show_debug_message("the object middles are: " + string(_spriteMid));
+var _buttonMid = x + sprite_get_width(sprite_index) / 2;
+//show_debug_message("the object middles are: " + string(_buttonMid));
 
 if(_choosing) {
-	draw_sprite(_popupSprite, 0, _spriteMid, y);
+	draw_sprite(_popupSprite, 0, _buttonMid, y);
 	
 	if(!_childrenDrawn) {
 		// Set the position for where the first item gets spawned relative to the object itself
-		var startX = _spriteMid - 128;
+		var startX = _buttonMid - 128;
 		var startY = y - 204;
 		var spacingX = 94;
 		var spacingY = 89;
