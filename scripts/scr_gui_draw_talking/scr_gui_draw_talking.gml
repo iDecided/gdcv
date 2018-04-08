@@ -10,7 +10,7 @@ var accessor = scr_get_hr_grid_accessor(global.date);
 if(global.plannedDates[? global.talkingTo]) {
 	show_debug_message("They should be showing the start date button");
 	if(ds_map_find_value(global.plannedDates[? global.talkingTo], "day") == day && ds_map_find_value(global.plannedDates[? global.talkingTo], "time") == global.tod) {
-		var startObj = instance_create_depth(778, 304, 0, obj_start_date);
+		var startObj = instance_create_depth(367, 551, 0, obj_start_date);
 		ds_list_add(_guiObjList, startObj);
 	}
 }

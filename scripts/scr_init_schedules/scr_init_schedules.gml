@@ -9,8 +9,6 @@ ds_map_add(argument0, "veronica", ds_grid_create(7,32));
 ds_map_add(argument0, "ryan", ds_grid_create(7,32));
 ds_map_add(argument0, "mario", ds_grid_create(7,32));
 
-var roomNames = ["rm_cc", "rm_ud", "rm_lib", "rm_ps", "rm_gdl", "rm_sr", "rm_dc", "rm_cs"];
-
 ds_grid_set_region(ds_map_find_value(argument0, "jacob"), 0, 0, 6, 30, "rm_cc");
 ds_grid_set_region(ds_map_find_value(argument0, "cole"), 0, 0, 6, 30, "rm_ud");
 //ds_grid_set_region(ds_map_find_value(argument0, "isabel"), 0, 0, 6, 30, roomNames[irandom(7)]);

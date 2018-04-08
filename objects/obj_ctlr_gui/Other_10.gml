@@ -10,4 +10,8 @@ for(var i=0; i < ds_list_size(ls_guiObjects); i++){
 }
 ds_list_empty(ls_guiObjects);
 
+// This is what draws all the objects onto the screen no matter where you are
+// 04/08/2018
+// This is where I'm going to put the trinket frontend update call and where I should almost definitely move the 
+// frontend portion of the populate world code as well
 scr_draw_gui(menu_state, ls_guiObjects);

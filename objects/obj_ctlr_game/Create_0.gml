@@ -36,26 +36,26 @@ enum sender {
 };
 
 enum respTriggers {
-	greeting,
+	greeting = 0,
 	parting,
 	trinket,
 	gift,
 	decline,
 	accept
-}
+};
 
 enum respTones {
-	positive,
+	positive = 0,
 	negative,
 	indifferent,
 	confused
-}
+};
 
 enum respStrengths {
-	light,
+	soft = 0,
 	medium,
 	strong
-}
+};
 
 // A global list of names so that you can loop over them
 // Names is a very strange variable. It not only acts as a list of names, but also acts as the
@@ -72,6 +72,9 @@ globalvar tod;
 globalvar date;
 global.tod = time.morning; 
 global.date = date_create_datetime(2017,1,1,8,0,0);
+
+globalvar roomNames;
+roomNames = ["rm_cc", "rm_cs", "rm_dc", "rm_gdl", "rm_lib", "rm_ps", "rm_sr", "rm_ud"];
 
 // Initialize character schedules
 globalvar schedules;
@@ -120,5 +123,26 @@ hasSaveData = false;
 // 04/08/2018
 // This is an array that is used to keep track of all of the statements that should appear during any given conversation
 // with any person. It is dynamically filled and emptied everytime you start a conversation with one of the NPCs.
-globalvar texts;
-texts = [];
+// 04/08/2018 12:53P
+// Yeah turns out I don't need this. I just create the objects as I go. It's soooo much simpler than anything I planned before.
+// Like...way fucking simpler. Oh the power of the 'with' statement
+//globalvar texts;
+//texts = [];
+
+
+// 04/08/2018
+// Creating a 2D array that stores where trinkets are, which will allow them to be persistent.
+globalvar trinketSpawns;
+trinketSpawns = ds_map_create();
+globalvar numTrinketSpawns;
+numTrinketSpawns = 10;
+globalvar totalTrinketsSpawned;
+totalTrinketsSpawned = 0;
+// Initializing the 2D array
+for (var i = 0; i < array_length_1d(roomNames); ++i) {
+	var _list = ds_list_create();
+	for (var j = 0; j < numTrinketSpawns; ++j) {
+	    _list[| j] = -1;
+	}
+	ds_map_add_list(trinketSpawns, roomNames[i], _list);
+}

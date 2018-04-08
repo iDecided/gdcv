@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description TEMP CODE
 // You can write your code in this editor
 if(keyboard_check_released(ord("1")))
 {

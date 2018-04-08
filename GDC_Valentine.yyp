@@ -258,7 +258,7 @@
             "Key": "20be0461-c9ab-4af4-b699-1f9cefb43d2e",
             "Value": {
                 "id": "d6bc38d9-737b-4ee2-9adb-010c10466aab",
-                "resourcePath": "objects\\obj_ctrl_gui\\obj_ctrl_gui.yy",
+                "resourcePath": "objects\\obj_ctlr_gui\\obj_ctlr_gui.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -335,6 +335,14 @@
             }
         },
         {
+            "Key": "297fc72b-b311-4096-b5d0-50061fb3009a",
+            "Value": {
+                "id": "55db6041-2f54-4473-acc5-3058cfad66bf",
+                "resourcePath": "objects\\obj_trinket_spawn\\obj_trinket_spawn.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2a16a36c-7271-4758-89a3-7e0db723853c",
             "Value": {
                 "id": "c2499b2e-daa6-4c14-ae03-a6c714a391bc",
@@ -396,6 +404,14 @@
                 "id": "64dbbc0b-db61-4eed-95be-6211991841b3",
                 "resourcePath": "datafiles_yy\\dialog_jacob.json.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "342e0e55-badb-476d-bb4f-323ca71cca6c",
+            "Value": {
+                "id": "2ccda330-4d46-4894-8868-2cba1b89f6b6",
+                "resourcePath": "scripts\\scr_spawn_trinkets_backend\\scr_spawn_trinkets_backend.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -903,6 +919,14 @@
             }
         },
         {
+            "Key": "6edd4e7e-9307-42a9-b291-4144999def29",
+            "Value": {
+                "id": "ad80851d-2f46-4003-be4c-d9575b855d78",
+                "resourcePath": "scripts\\scr_access_3d_arr\\scr_access_3d_arr.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "701654ad-0c9e-4de0-a9d3-fa881633ab7a",
             "Value": {
                 "id": "08b44ebd-165f-4ea0-96ad-b3f50dfb9edf",
@@ -1242,7 +1266,7 @@
             "Key": "92a314ce-577b-48e2-92c9-0f4520472898",
             "Value": {
                 "id": "c3bbda86-5683-4cec-9ec6-4de374edfaa6",
-                "resourcePath": "scripts\\populate_overworld\\populate_overworld.yy",
+                "resourcePath": "scripts\\scr_populate_overworld\\scr_populate_overworld.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1332,6 +1356,14 @@
                 "id": "85f03566-4dc0-486f-87ad-79089df6c6b0",
                 "resourcePath": "sprites\\spr_affection_minus_minus\\spr_affection_minus_minus.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9af5cf84-2024-4363-bffa-07079be022f1",
+            "Value": {
+                "id": "c137d3dc-5c82-44af-9100-139e1bfb45d7",
+                "resourcePath": "scripts\\scr_spawn_trinkets_frontend\\scr_spawn_trinkets_frontend.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2188,6 +2220,8 @@
         "ae0cba59-822c-45d8-838f-32cabe796627",
         "a1ef8f55-5975-4489-93fe-095cd2c9755f",
         "693daa1f-d10f-4cba-8d4e-752471d7d6c1",
+        "342e0e55-badb-476d-bb4f-323ca71cca6c",
+        "9af5cf84-2024-4363-bffa-07079be022f1",
         "9f139ec3-b19d-461a-996e-56fd345effb9",
         "1c001ae3-4acc-4d21-884e-6d5a7834296a",
         "5cfae730-b379-465e-bfd0-dbb57ac4140d",
@@ -2196,6 +2230,7 @@
         "12fc9b10-21ce-483a-9325-b8c98f346ca0",
         "0776031e-0cb8-41a1-ae60-8330f1f45033",
         "3b85143e-f995-4207-9f1f-f438a45729ae",
+        "6edd4e7e-9307-42a9-b291-4144999def29",
         "701654ad-0c9e-4de0-a9d3-fa881633ab7a",
         "27aea931-7331-459e-9565-6d38df2d0816",
         "bc2a9598-561e-4dd5-8d8a-ea3cb497b5cc",

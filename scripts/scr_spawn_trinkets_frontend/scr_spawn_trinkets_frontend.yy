@@ -1,8 +1,8 @@
 {
-    "id": "92a314ce-577b-48e2-92c9-0f4520472898",
+    "id": "9af5cf84-2024-4363-bffa-07079be022f1",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "populate_overworld",
+    "name": "scr_spawn_trinkets_frontend",
     "IsCompatibility": false,
     "IsDnD": false
 }

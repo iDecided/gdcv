@@ -1,5 +1,5 @@
 // This part of this object is used to initialize any variables that need to be initialized when a room starts
-// 04/08/2018 I realized that this is essentially the 
+// 04/08/2018 I realized that this is essentially the room init screen, which is why I initialize some variables here sometimes
 
 // Will automatically set the menu_state based on the room you're currently in
 switch (room) {

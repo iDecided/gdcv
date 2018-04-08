@@ -1,6 +1,7 @@
 /// @description 
 // You can write your code in this editor
 
+// Draw nothing for a menu except what's already in the room
 if(menu_state == menu_states.none) {
 	
 	// 03/19/18
@@ -26,6 +27,7 @@ if(menu_state == menu_states.none) {
 	draw_surface(clip_surface, clip_x, clip_y);*/
 }
 
+// Draw the top menu
 if(menu_state == menu_states.ovw || menu_state == menu_states.items || menu_state == menu_states.people_overview || menu_state == menu_states.people_details) {
 	draw_sprite(spr_tm_bg, 0, 0, 0);
 	draw_sprite(spr_tm_timeline, 0, 207, 29);
@@ -100,6 +102,8 @@ if(menu_state == menu_states.people_details) {
 	draw_set_font(fnt_schedule);
 	draw_set_valign(fa_center);
 	
+	// 04/08/2018
+	// Oh my God, did I really just use 'blah' as a variable name?
 	var blah = ["Campus", "C-Store", "Dining", "GDL", "Library", "Pearson", "S-Room", "UDCC", "???"];
 	var slots = [8, 10, 14];
 	var spacer = [46.375, 37.1, 26.5];

@@ -5,6 +5,10 @@ if(argument0 == menu_states.ovw || argument0 == menu_states.items || argument0 =
 	scr_gui_draw_tm(argument1);
 }
 
+if(argument0 == menu_states.ovw) {
+	scr_spawn_trinkets_frontend();
+}
+
 if(argument0 == menu_states.items) {
 	scr_gui_draw_inventory(argument1);
 }

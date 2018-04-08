@@ -5,6 +5,12 @@
 // Now that I've copied all of this over and made a trinket child, I realized I have hardcoded the locations
 // of the objects that are drawn. Now I'm going to fix that issue.
 
+// 04/08/2018
+// Alright, so I just struggled with depth drawing issues where the messages would draw over the green popup and jeezus
+// fuck, Ryan helped me figure it out. Literally all I did was go into the room and move the instances layer to the very top
+// of the layer list so that the layer the button is on draws on top of everything else. Idk why that actually works and is
+// something to look into, but hey it's fixed for now so yaaaay. View Discord DM logs for more info.
+
 draw_self();
 
 var _drawList = ds_list_create();

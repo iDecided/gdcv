@@ -76,6 +76,11 @@ for(var i=0; i<ds_list_size(global.names); i++) {
 	}
 } */
 
+// 04/08/2018
+// Jeezus Christ, this is some of the most convoluted code I've tried to read in the longest fucking time.
+// I think I need to rethink how I use room and global.currentRoom because I think that could fix this. That's
+// just off the top of my head, though. It's been a while since I've written this code.
+
 var shouldDraw;
 for(var i=0; i<ds_list_size(global.names); i++) {
 	
@@ -86,7 +91,7 @@ for(var i=0; i<ds_list_size(global.names); i++) {
 	var roomSched = global.schedules[? tempName];
 	var accessor = scr_get_hr_grid_accessor(global.date);
 	
-	shouldDraw = roomSched[# day, accessor] == room_get_name(room);
+	shouldDraw = (roomSched[# day, accessor] == room_get_name(room));
 	
 	if(global.plannedDates[? tempName]) { // Actually, this character is supposed to have a date
 		// Now we need to check and see if it is currently the planned time and day
@@ -102,7 +107,7 @@ for(var i=0; i<ds_list_size(global.names); i++) {
 			/* shouldDraw = ds_map_find_value(global.plannedDates[? tempName], "location") == room; */
 		}
 		else { // If it's not, draw as normal.
-			shouldDraw = roomSched[# day, accessor] == room_get_name(room);
+			shouldDraw = (roomSched[# day, accessor] == room_get_name(room));
 		}
 		
 	}

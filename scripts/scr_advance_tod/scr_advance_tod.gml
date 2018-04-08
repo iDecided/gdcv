@@ -16,4 +16,4 @@ else {
 
 show_debug_message(date_datetime_string(global.date));
 
-populate_overworld();
+scr_populate_overworld();
