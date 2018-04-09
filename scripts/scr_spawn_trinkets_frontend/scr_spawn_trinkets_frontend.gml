@@ -2,7 +2,7 @@
 
 var _tempList = trinketSpawns[? room_get_name(room)];
 //var _tempStr = "Trinkets needing to be drawn in this room: ";
-for (var i = 0; i < global.numTrinketSpawns; ++i) {
+for (var i = 0; i < global.numTrinketSpawners; ++i) {
 	with(instance_find(obj_trinket_spawn, i)) {
 		_type = _tempList[| i];
 		_instanceListNum = i;

@@ -132,16 +132,17 @@ hasSaveData = false;
 
 // 04/08/2018
 // Creating a 2D array that stores where trinkets are, which will allow them to be persistent.
+// Also, on second review, I might want to rename this to trinketBackend or something like trinketStruct
 globalvar trinketSpawns;
 trinketSpawns = ds_map_create();
-globalvar numTrinketSpawns;
-numTrinketSpawns = 10;
+globalvar numTrinketSpawners;
+numTrinketSpawners = 10;
 globalvar totalTrinketsSpawned;
 totalTrinketsSpawned = 0;
 // Initializing the 2D array
 for (var i = 0; i < array_length_1d(roomNames); ++i) {
 	var _list = ds_list_create();
-	for (var j = 0; j < numTrinketSpawns; ++j) {
+	for (var j = 0; j < numTrinketSpawners; ++j) {
 	    _list[| j] = -1;
 	}
 	ds_map_add_list(trinketSpawns, roomNames[i], _list);
