@@ -6,7 +6,7 @@
 // system that I haven't even implemented yet. But I realized that I could start leaving myself clues as to where I need to 
 // trigger responses once I do have it created. I made sure to tell myself that it was implemented so that if I ever see this
 // in the debug log, I know it needs to be implemented once, or after, I complete the trigger system.
-if(global.plannedDates[? global.talkingTo]) {
+if(_disabled) {
 	// Trigger Waiting4Date response
 	show_debug_message("Should be triggering a Waiting4Date response (not implemented)");
 	return;
@@ -40,17 +40,18 @@ if(global.plannedDates[? global.talkingTo]) {
 //	ds_list_clear(_childrenObjs);
 //}
 //_childrenDrawn = false;
+if(!_disabled) {
+	_choosing = !_choosing;
 
-_choosing = !_choosing;
-
-// 04/08/2018 2:41A
-// Alright, so I've figured it out. Now that I've pared it down to where all you have to do is set one variable no matter
-// where, I am now going to just use a 'with all but myself' recipe and set choosing to false.
-// Also, this worked so fuck yeah
-// Also, also, I'm at a game jam, that's why I'm up so late
-with (obj_give_btn_parent) {
-	if (id != other.id) {
-		//show_debug_message(object_get_name(id.object_index));
-		_choosing = false;
+	// 04/08/2018 2:41A
+	// Alright, so I've figured it out. Now that I've pared it down to where all you have to do is set one variable no matter
+	// where, I am now going to just use a 'with all but myself' recipe and set choosing to false.
+	// Also, this worked so fuck yeah
+	// Also, also, I'm at a game jam, that's why I'm up so late
+	with (obj_give_btn_parent) {
+		if (id != other.id) {
+			//show_debug_message(object_get_name(id.object_index));
+			_choosing = false;
+		}
 	}
 }

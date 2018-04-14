@@ -14,3 +14,10 @@ _choosing = false;
 _childrenDrawn = false;
 _popupSprite = pointer_null;
 _childrenObjs = ds_list_create();
+
+_disabled = false;
+
+if(global.plannedDates[? global.talkingTo]) {
+	_disabled = true;
+	image_index = 2;
+}

@@ -20,9 +20,9 @@ var _todChangeFlag = argument1;
 
 var _roomTrinketList = global.trinketSpawns[? _roomName];
 
-var _spotRoll;
-var _typeRoll;
-var _roomRoll;
+var _spotRoll = irandom_range(0, global.numTrinketSpawners - 1);
+var _typeRoll = irandom_range(trinket.tr_1, trinket.tr_6);
+var _roomRoll = irandom_range(0, array_length_1d(global.roomNames) - 1);
 
 // Note: Actually this method was garbage, Idk what I was thinking. Probably the lack of sleep talking here.
 // Reroll for another spot if this spot already has a trinket in it. Return if all spots are full in this list.
