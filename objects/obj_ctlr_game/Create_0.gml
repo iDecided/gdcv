@@ -115,10 +115,13 @@ globalvar detailedCharacter;
 // Also, these will need to be determined like...right away.
 // Essentially, these should be done first and then either initialize all the above variables with the save data
 // or initialize them to what it currently is.
+globalvar hasSaveData;
+//var saveFile = file_text_open_write("diary.sav");
+//file_text_write_string(saveFile, "Hello world");
+hasSaveData = file_exists("diary.sav");
+//hasSaveData = false;
 globalvar hasUnlockedAllChars;
 hasUnlockedAllChars = false;
-globalvar hasSaveData;
-hasSaveData = false;
 
 // 04/08/2018
 // This is an array that is used to keep track of all of the statements that should appear during any given conversation

@@ -391,6 +391,14 @@
             }
         },
         {
+            "Key": "2f6060aa-a59c-4c7f-bfe4-ca68d7cdddf4",
+            "Value": {
+                "id": "bb8df54d-a195-4f1c-82fe-54cb6cebd47c",
+                "resourcePath": "scripts\\scr_save_game\\scr_save_game.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "32ffafab-f6b7-4257-82a0-38f0f2ef1e88",
             "Value": {
                 "id": "0dd9d7ae-4de4-40ea-874f-174bb1ee3dc7",
@@ -732,6 +740,14 @@
                 "id": "53a5454d-5e4e-424c-8871-de81e3b1699f",
                 "resourcePath": "views\\541dc495-c39e-41a9-8273-b9792150b1bb.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5495ff66-7d77-4e9c-9f7a-95a55254d4d3",
+            "Value": {
+                "id": "5099ca14-7329-483e-8896-fa199f78e061",
+                "resourcePath": "scripts\\scr_load_game\\scr_load_game.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2231,6 +2247,8 @@
         "0776031e-0cb8-41a1-ae60-8330f1f45033",
         "3b85143e-f995-4207-9f1f-f438a45729ae",
         "6edd4e7e-9307-42a9-b291-4144999def29",
+        "2f6060aa-a59c-4c7f-bfe4-ca68d7cdddf4",
+        "5495ff66-7d77-4e9c-9f7a-95a55254d4d3",
         "701654ad-0c9e-4de0-a9d3-fa881633ab7a",
         "27aea931-7331-459e-9565-6d38df2d0816",
         "bc2a9598-561e-4dd5-8d8a-ea3cb497b5cc",

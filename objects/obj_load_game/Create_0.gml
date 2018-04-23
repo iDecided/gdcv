@@ -1,5 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(!hasSaveData) {
+if(!global.hasSaveData) {
 	image_index = 2;
 }

@@ -7,16 +7,19 @@ if (position_meeting(mouse_x, mouse_y, self)) {
 	{
 		ds_list_add(optionsList, "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat");
 		ds_list_add(valueList, 0, 1, 2, 3, 4, 5, 6);
+		_typeNum = 0;
 	}
 	else if(listType == "time")
 	{
 		ds_list_add(optionsList, "Morning", "Afternoon", "Evening");
 		ds_list_add(valueList, time.morning, time.afternoon, time.night);
+		_typeNum = 1;
 	}
 	else if(listType == "location")
 	{
 		ds_list_add(optionsList, "Central Campus", "Dining Center", "Game Dev Lab", "Library", "Streaming Room");
 		ds_list_add(valueList, rm_cc, rm_dc, rm_gdl, rm_lib, rm_sr);
+		_typeNum = 2;
 	}
 	else {
 		show_message("The dropdown that needed shows didn't have its 'listType' set.");
@@ -37,6 +40,12 @@ if (position_meeting(mouse_x, mouse_y, self)) {
 			dropdownItemsList[| i].text = optionsList[| i];
 			dropdownItemsList[| i].value = valueList[| i];
 			dropdownItemsList[| i].owner = id;
+			//show_debug_message(string(_typeNum));
+			// 04/14/2018
+			// I don't know why, but this is weird. For some reason, I had to move the super long boxes to the
+			// second two spots in the actual sprite frames, even though that doesn't line up with the numbers I've
+			// set _typeNum to in the above related if-statements
+			dropdownItemsList[| i]._typeImageIndex = _typeNum * 2;
 			yy -= yIncrement;
 		}
 	}

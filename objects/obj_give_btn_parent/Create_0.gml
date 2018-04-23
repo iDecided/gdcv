@@ -15,8 +15,11 @@ _childrenDrawn = false;
 _popupSprite = pointer_null;
 _childrenObjs = ds_list_create();
 
+// 04/14/2018
+// Created this flag in order to change the button into a disabled state, but really that was just modifying already
+// existing code that I had so you couldn't give items when they were waiting for a date.
+// Also, I made this comment *after* committing.
 _disabled = false;
-
 if(global.plannedDates[? global.talkingTo]) {
 	_disabled = true;
 	image_index = 2;

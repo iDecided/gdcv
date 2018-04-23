@@ -24,3 +24,11 @@ if(keyboard_check_released(ord("6")))
 {
 	scr_draw_response(sender.pc, "Large message from PC");
 }
+if(keyboard_check_released(ord("S")))
+{
+	scr_save_game();
+}
+if(keyboard_check_released(ord("L")))
+{
+	scr_load_game();
+}

@@ -18,21 +18,24 @@ if(global.plannedDates[? global.talkingTo]) {
 if(global.planningDate) {
 	pickerLayer_bg = layer_create(-100, "datePicker_bg");
 	var tempSpr = layer_sprite_create(pickerLayer_bg,0,0,spr_solid_black);
-	layer_sprite_alpha(tempSpr, 0.75);
-	layer_sprite_create(pickerLayer_bg,640,192,spr_date_question);
+	layer_sprite_alpha(tempSpr, 0.90);
 
 	pickerLayer_obj = layer_create(-101, "datePicker_obj");
-	var tempObj = instance_create_layer(247, 326, pickerLayer_obj, obj_dropdown);
+	// 04/14/2018
+	// So this had to be moved to the obj layer because I make the other layer have a lower opacity
+	// And so I'mma move it to this one since it never changes.
+	layer_sprite_create(pickerLayer_obj,640,192,spr_date_question);
+	var tempObj = instance_create_layer(225, 326, pickerLayer_obj, obj_dropdown);
 	with(tempObj) {
 		listType = "day";
 		defaultOption = "Day";
 	}
-	tempObj = instance_create_layer(418, 326, pickerLayer_obj, obj_dropdown);
+	tempObj = instance_create_layer(396, 326, pickerLayer_obj, obj_dropdown);
 	with(tempObj) {
 		listType = "time";
 		defaultOption = "Time";
 	}
-	tempObj = instance_create_layer(684, 326, pickerLayer_obj, obj_dropdown);
+	tempObj = instance_create_layer(691, 326, pickerLayer_obj, obj_dropdown);
 	with(tempObj) {
 		listType = "location";
 		defaultOption = "Location";

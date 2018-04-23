@@ -4,3 +4,5 @@ text = "";
 value = pointer_null;
 owner = pointer_null;
 image_speed = 0;
+
+_typeImageIndex = 0;

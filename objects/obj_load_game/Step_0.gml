@@ -9,6 +9,6 @@
 
 // Ryan got back to me about this. You go Room -> Instance Creation Order -> (it's now in a sidebar)
 // If you're going to snag a clip of this, look at 03/15/18 in Discord.
-if(hasSaveData) {
+if(global.hasSaveData) {
 	event_inherited();
 }
