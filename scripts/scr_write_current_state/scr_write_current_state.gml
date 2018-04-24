@@ -13,10 +13,10 @@
 //file_text_close(saveFile);
 //show_debug_message("Should have saved.");
 
-if(file_exists("diary.ini")) {
-	file_delete("diary.ini");
+if(file_exists("test.ini")) {
+	file_delete("test.ini");
 }
-var saveFile = ini_open("diary.ini");
+var saveFile = ini_open("test.ini");
 
 
 // ~~ Game State
@@ -34,10 +34,7 @@ ini_write_string("sd_gamestate", "nameList", ds_list_write(global.names));
 
 // ~~ World State
 // Saving the trinket locations
-var trinketString = json_encode(global.trinketSpawns);
-show_debug_message(trinketString);
-
-ini_write_string("sd_worldstate", "trinketLocations", trinketString);
+ini_write_string("sd_worldstate", "trinketLocations", json_encode(global.trinketSpawns));
 
 // ~~ Player State
 // Saving the player's inventory TODO

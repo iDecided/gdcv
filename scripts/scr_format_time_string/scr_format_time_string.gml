@@ -23,3 +23,10 @@ if(includeAmOrPm) {
 	timeString += amOrPm;
 }
 return timeString;
+
+// 04/23/2018
+// Quick note: I just found this site:
+//		http://www.gmlscripts.com/script/Computation/Date-Time/
+// and it turns out that they write a script that's WAY better than mine and way more functional.
+// Maybe I should use this as an example of using other peoples' code? I'd have to go over how to
+// credit the creator and whatnot.

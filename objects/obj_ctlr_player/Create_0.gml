@@ -17,6 +17,9 @@ globalvar maxGifts;
 global.maxGifts = 30;
 
 // An array for keep track of the gifts that the player has accrued
+// 04/23/2018
+// You know...now that I'm writing the code for saving and loading stuff, I should really rework this to work
+// as a list instead of an array. =/
 globalvar gifts;
 global.gifts = array_create(maxGifts, "");
 
