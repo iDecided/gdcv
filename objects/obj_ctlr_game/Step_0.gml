@@ -1,4 +1,4 @@
-/// @description TEMP CODE
+/// @description Debug Code
 // You can write your code in this editor
 if(keyboard_check_released(ord("1")))
 {
@@ -31,4 +31,12 @@ if(keyboard_check_released(ord("S")))
 if(keyboard_check_released(ord("L")))
 {
 	scr_load_game();
+}
+if(keyboard_check_released(ord("G")))
+{
+	var nameString = global.names[| irandom_range(people.jacob, people.mario)];
+	while(nameString == undefined) {
+		nameString = global.names[| irandom_range(people.jacob, people.mario)];
+	}
+	scr_add_gift(nameString, irandom_range(1,4));
 }

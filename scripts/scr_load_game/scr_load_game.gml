@@ -14,6 +14,8 @@ if(file_exists("diary.ini")) {
 	
 	// ~~ Game State (sd_gamestate)
 	// Loading the datetime and current ToD
+	global.date = ini_read_real("sd_gamestate", "datetime", -1);
+	global.tod = ini_read_real("sd_gamestate", "tod", -1);
 	// Loading the list of planned dates
 	// Loading the room the player is currently in.
 	var loadedRoom = ini_read_real("sd_gamestate", "currentRoom", -1);
@@ -29,12 +31,22 @@ if(file_exists("diary.ini")) {
 	// ~~ World State (sd_worldstate)
 	// Loading the trinket locations
 	var trinketsJSON = ini_read_string("sd_worldstate", "trinketLocations", "");
-	show_debug_message("TrinketsJSON: " + trinketsJSON + "(end)");
-	//ds_map_read(global.trinketSpawns, json_decode(ini_read_string("sd_worldstate", "trinketLocations", "")));
+	global.trinketSpawns = json_decode(string_replace_all(trinketsJSON, "[[&quot]]", "\""));
+	
 	// ~~ Player State (sd_playerstate)
-	// Loading the player's inventory TODO
+	// Loading the player's inventory
+	var tempList = ds_list_create();
+	var giftsString = ini_read_string("sd_playerstate", "giftList", "");
+	ds_list_read(tempList, giftsString);
+	for (var i = 0; i < global.maxGifts; ++i) {
+	    global.gifts[i] = tempList[| i];
+	}
 	// Loading the affectionMap
+	var affectionJSON = ini_read_string("sd_playerstate", "affectionMap", "");
+	global.affectionMap = json_decode(string_replace_all(affectionJSON, "[[&quot]]", "\""));
 	// Loading the affection levels
+	var affectionLevelsJSON = ini_read_string("sd_playerstate", "affectionLevelsMap", "");
+	global.affectionLevelMap = json_decode(string_replace_all(affectionLevelsJSON, "[[&quot]]", "\""));
 	// Loading the known schedule TODO
 	
 	ini_close();

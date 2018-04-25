@@ -19,9 +19,9 @@ if(file_exists("diary.ini")) {
 var saveFile = ini_open("diary.ini");
 
 
-// ~~ Game State
+// ~~ Game State (sd_gamestate)
 // Saving the datetime and current ToD
-ini_write_string("sd_gamestate", "datetime", date_datetime_string(global.date));
+ini_write_real("sd_gamestate", "datetime", global.date);
 ini_write_real("sd_gamestate", "tod", global.tod);
 // Saving the list of planned dates
 var plannedDatesString = json_encode(global.plannedDates);
@@ -32,19 +32,24 @@ ini_write_real("sd_gamestate", "currentRoom", global.currentRoom);
 ini_write_string("sd_gamestate", "nameList", ds_list_write(global.names));
 
 
-// ~~ World State
+// ~~ World State (sd_worldstate)
 // Saving the trinket locations
 var trinketString = json_encode(global.trinketSpawns);
-show_debug_message(trinketString);
+ini_write_string("sd_worldstate", "trinketLocations", string_replace_all(trinketString, "\"", "[[&quot]]"));
 
-ini_write_string("sd_worldstate", "trinketLocations", trinketString);
-
-// ~~ Player State
-// Saving the player's inventory TODO
+// ~~ Player State (sd_playerstate)
+// Saving the player's inventory
+var giftList = ds_list_create();
+for (var i = 0; i < global.maxGifts; ++i) {
+    giftList[| i] = global.gifts[i];
+}
+ini_write_string("sd_playerstate", "giftList", ds_list_write(giftList));
 // Saving the affectionMap
-ini_write_string("sd_playerstate", "affectionMap", json_encode(global.affectionMap));
+var affectionMapString = json_encode(global.affectionMap);
+ini_write_string("sd_playerstate", "affectionMap", string_replace_all(affectionMapString, "\"", "[[&quot]]"));
 // Saving the affection levels
-ini_write_string("sd_playerstate", "affectionLevelsMap", json_encode(global.affectionLevelMap));
+var affectionLevelsString = json_encode(global.affectionLevelMap);
+ini_write_string("sd_playerstate", "affectionLevelsMap", string_replace_all(affectionLevelsString, "\"", "[[&quot]]"));
 // Saving the known schedule TODO
 
 // Note on this function: the file is not written to disk until you close the ini file. It's just kept in memory
