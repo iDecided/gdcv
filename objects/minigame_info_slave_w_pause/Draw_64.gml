@@ -5,6 +5,6 @@ if(paused) {
 	else {
 		show_message("Fudge");
 	}
-	draw_text_color(room_width/2, room_height/2, "Oh Shit boi we paused now",
-	c_lime, c_lime, c_lime, c_lime, 1);
+	//draw_text_color(room_width/2, room_height/2, "PAUSED", c_lime, c_lime, c_lime, c_lime, 1);
+	draw_text_ext_transformed_color(room_width/2, room_height/2, "PAUSED", 0, 1080, 10, 10, 0, c_lime, c_lime, c_lime, c_lime, 1);
 }

@@ -59,6 +59,7 @@ if(cameraTransition) {
 if(current_dots >= goal_dots) {
 	// Ryan's code
 	minigame_info_slave.did_win = true;
+	
 	// Took this out because Ryan draws stuff to the screen
 	//minigame_info_slave.draw_something = true;
 	//room_goto(rm_talking);
@@ -72,6 +73,7 @@ if(current_dots >= goal_dots) {
 	// 3) Increase affection and affection level
 	// 4) Give the character a new random item
 	// 5) Send them back to the talking screen
+	// 6) Trigger hyper-happy monologue
 	ds_map_delete(global.plannedDates, global.talkingTo);
 	scr_advance_tod();
 	scr_add_affection(5, true);

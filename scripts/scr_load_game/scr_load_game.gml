@@ -17,6 +17,7 @@ if(file_exists("diary.ini")) {
 	global.date = ini_read_real("sd_gamestate", "datetime", -1);
 	global.tod = ini_read_real("sd_gamestate", "tod", -1);
 	// Loading the list of planned dates
+	global.plannedDates = json_decode(ini_read_string("sd_gamestate", "plannedDates", ""));
 	// Loading the room the player is currently in.
 	var loadedRoom = ini_read_real("sd_gamestate", "currentRoom", -1);
 	if(loadedRoom == -1) { // I used -1 as the default here, so if you're somehow loading into a room that wasn't saved correctly you'll get an error crash.
@@ -31,7 +32,7 @@ if(file_exists("diary.ini")) {
 	// ~~ World State (sd_worldstate)
 	// Loading the trinket locations
 	var trinketsJSON = ini_read_string("sd_worldstate", "trinketLocations", "");
-	global.trinketSpawns = json_decode(string_replace_all(trinketsJSON, "[[&quot]]", "\""));
+	global.trinketSpawns = json_decode(string_replace_all(trinketsJSON, "'", "\""));
 	
 	// ~~ Player State (sd_playerstate)
 	// Loading the player's inventory
@@ -43,10 +44,10 @@ if(file_exists("diary.ini")) {
 	}
 	// Loading the affectionMap
 	var affectionJSON = ini_read_string("sd_playerstate", "affectionMap", "");
-	global.affectionMap = json_decode(string_replace_all(affectionJSON, "[[&quot]]", "\""));
+	global.affectionMap = json_decode(string_replace_all(affectionJSON, "'", "\""));
 	// Loading the affection levels
 	var affectionLevelsJSON = ini_read_string("sd_playerstate", "affectionLevelsMap", "");
-	global.affectionLevelMap = json_decode(string_replace_all(affectionLevelsJSON, "[[&quot]]", "\""));
+	global.affectionLevelMap = json_decode(string_replace_all(affectionLevelsJSON, "'", "\""));
 	// Loading the known schedule TODO
 	
 	ini_close();

@@ -35,7 +35,9 @@ ini_write_string("sd_gamestate", "nameList", ds_list_write(global.names));
 // ~~ World State (sd_worldstate)
 // Saving the trinket locations
 var trinketString = json_encode(global.trinketSpawns);
-ini_write_string("sd_worldstate", "trinketLocations", string_replace_all(trinketString, "\"", "[[&quot]]"));
+// Have to change the double quotes to single quotes, because just look at my Reddit post on 04/24/2018
+// Sidenote: this means I can't use single-quotes in this list anymore
+ini_write_string("sd_worldstate", "trinketLocations", string_replace_all(trinketString, "\"", "'"));
 
 // ~~ Player State (sd_playerstate)
 // Saving the player's inventory
@@ -46,10 +48,10 @@ for (var i = 0; i < global.maxGifts; ++i) {
 ini_write_string("sd_playerstate", "giftList", ds_list_write(giftList));
 // Saving the affectionMap
 var affectionMapString = json_encode(global.affectionMap);
-ini_write_string("sd_playerstate", "affectionMap", string_replace_all(affectionMapString, "\"", "[[&quot]]"));
+ini_write_string("sd_playerstate", "affectionMap", string_replace_all(affectionMapString, "\"", "'"));
 // Saving the affection levels
 var affectionLevelsString = json_encode(global.affectionLevelMap);
-ini_write_string("sd_playerstate", "affectionLevelsMap", string_replace_all(affectionLevelsString, "\"", "[[&quot]]"));
+ini_write_string("sd_playerstate", "affectionLevelsMap", string_replace_all(affectionLevelsString, "\"", "'"));
 // Saving the known schedule TODO
 
 // Note on this function: the file is not written to disk until you close the ini file. It's just kept in memory

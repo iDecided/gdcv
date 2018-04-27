@@ -13,8 +13,32 @@ else {
 	
 	if(myLives == -1) {
 		minigame_info_slave.did_win = false;
-		minigame_info_slave.draw_something = true;
-		room_goto(rm_date_0);
+		//minigame_info_slave.draw_something = true;
+		
+		// LOSE STATE (set gamestate variables accordingly to go back and not receive a gift...)
+		//room_goto(rm_date_0);
+		// There are three things that need to happen here:
+		
+		// 04/24/2018
+		// This is was copy-pasted from the win state, but modified to work with losing.
+		// 1) Delete the date from the list of planned dates
+		// 2) Advance the time of day
+		// 3) Send them back to the talking screen
+		// 4) Trigger disappointed response
+		
+		ds_map_delete(global.plannedDates, global.talkingTo);
+		scr_advance_tod();
+		//scr_add_affection(5, true);
+		//var receivedRandomGift = false;
+		//var giftStr;
+		//do {
+		//	var randPers = global.names[| irandom_range(0, ds_list_size(global.names) - 1)];
+		//	giftStr = randPers + "_" + string(global.affectionLevelMap[? randPers] + 1);
+		//	receivedRandomGift = scr_add_gift(randPers, global.affectionLevelMap[? randPers] + 1);
+		//} until (receivedRandomGift);
+		//global.showNewGift = giftStr;
+		UPDATE_GUI;
+		room_goto(rm_talking);
 	}
 	/*
 	with(enemy_obj) {
