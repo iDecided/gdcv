@@ -57,6 +57,13 @@ enum respStrengths {
 	strong
 };
 
+enum emojies {
+	nothing = 0,
+	happy,
+	sad,
+	indifferent
+};
+
 // A global list of names so that you can loop over them
 // Names is a very strange variable. It not only acts as a list of names, but also acts as the
 // variable that keeps track of who you've met. Since I use this as the basis of what anything that has
