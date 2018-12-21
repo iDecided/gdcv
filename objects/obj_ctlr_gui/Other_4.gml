@@ -19,6 +19,7 @@ switch (room) {
 		//var clip_height = 392;
 		//var clip_width = 718;
 		//conversationSurface = surface_create(clip_width, clip_height);
+		global.isTalking = true;
 		global.guiController.menu_state = menu_states.talking;
 		break;
 	case rm_tm_items:
