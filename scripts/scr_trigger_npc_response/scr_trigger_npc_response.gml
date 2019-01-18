@@ -28,6 +28,6 @@ Once the response is determined, these are the next steps to showing the respons
 */
 
 if(_trigger == respTriggers.trinket) {
-	scr_draw_response(sender.npc, "Test message from NPC");
-	scr_draw_response(sender.pc, "Test message from PC");
+	scr_draw_response(sender.npc, "Test message from NPC", "small");
+	scr_draw_response(sender.pc, "Test message from PC", "small");
 }
