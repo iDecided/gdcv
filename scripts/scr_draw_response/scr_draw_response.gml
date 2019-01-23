@@ -5,7 +5,7 @@ var _senderX = argument0;
 var _messageX = argument1;
 
 // TODO: This needs to be determined based on the length of the message
-var _messageSizeX = "small";
+var _messageSizeX = argument2;
 
 var _padding = 10;
 with(obj_speech_bubble_parent) {

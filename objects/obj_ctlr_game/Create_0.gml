@@ -116,6 +116,12 @@ globalvar currentRoom;
 globalvar talkingTo;
 globalvar detailedCharacter;
 
+globalvar isTalking;
+isTalking = false;
+
+globalvar responseReaction;
+responseReaction = 0;
+
 
 // Global settings variables that will need to transfer stuff between play sessions
 // These will need to be set using some sort of settings or config file
