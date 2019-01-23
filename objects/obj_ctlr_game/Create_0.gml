@@ -136,6 +136,13 @@ hasSaveData = file_exists("diary.sav");
 globalvar hasUnlockedAllChars;
 hasUnlockedAllChars = false;
 
+globalvar isTalking;
+isTalking = false;
+
+globalvar responseReaction;
+responseReaction = 0;
+
+
 // 04/08/2018
 // This is an array that is used to keep track of all of the statements that should appear during any given conversation
 // with any person. It is dynamically filled and emptied everytime you start a conversation with one of the NPCs.
