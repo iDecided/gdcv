@@ -1,5 +1,6 @@
 /// @arg sender  Determines what color background the response should have. Expects a value from the sender enum
 /// @arg message  The message to display on the response
+/// @arg bgSize  The size of the background thumbnail
 
 var _senderX = argument0;
 var _messageX = argument1;
