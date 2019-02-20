@@ -1,5 +1,29 @@
 /// @description Debug Code
 // You can write your code in this editor
+
+if(keyboard_check_released(ord("S")))
+{
+	show_debug_message("Saving started...");
+	scr_save_game();
+	show_debug_message("Saving completed.");
+}
+if(keyboard_check_released(ord("L")))
+{
+	show_debug_message("Loading started...");
+	scr_load_game();
+	show_debug_message("Loading completed.");
+}
+if(keyboard_check_released(ord("G")))
+{
+	var nameString = global.names[| irandom_range(people.jacob, people.mario)];
+	while(nameString == undefined) {
+		nameString = global.names[| irandom_range(people.jacob, people.mario)];
+	}
+	scr_add_gift(nameString, irandom_range(1,4));
+}
+
+
+// Debug code for sending messages between the NPC and PC
 if(isTalking == true)
 {
 	if(keyboard_check_released(ord("1")))
@@ -40,21 +64,5 @@ if(isTalking == true)
 	{
 		scr_draw_response(sender.npc, "Mad Response", "large");
 		responseReaction = respStrengths.strong;
-	}
-	if(keyboard_check_released(ord("S")))
-	{
-		scr_save_game();
-	}
-	if(keyboard_check_released(ord("L")))
-	{
-		scr_load_game();
-	}
-	if(keyboard_check_released(ord("G")))
-	{
-		var nameString = global.names[| irandom_range(people.jacob, people.mario)];
-		while(nameString == undefined) {
-			nameString = global.names[| irandom_range(people.jacob, people.mario)];
-		}
-		scr_add_gift(nameString, irandom_range(1,4));
 	}
 }

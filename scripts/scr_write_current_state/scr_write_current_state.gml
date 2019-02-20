@@ -48,4 +48,4 @@ ini_write_string("sd_playerstate", "affectionLevelsMap", json_encode(global.affe
 // and disappears once the game exits if you never close the file.
 ini_close();
 
-show_debug_message("Should have saved.");
+show_debug_message("State has been written to test.ini");

@@ -10,8 +10,10 @@ var _messageSizeX = argument2;
 
 var _padding = 10;
 with(obj_speech_bubble_parent) {
+	y -= _amountScrolled;
+	_amountScrolled = 0;
 	y -= sprite_get_height(asset_get_index("spr_convo_" + _messageSizeX)) + _padding;
-}
+} 
 
 var _tempX = 434;
 if(_senderX == sender.pc) {
