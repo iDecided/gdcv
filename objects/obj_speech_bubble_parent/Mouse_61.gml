@@ -3,12 +3,11 @@
 
 
 
-y+= 25;
-_position += 25;
-
 /*	if place_meeting(x, y, obj_goodbye)
 	{
 		y += 25;
 		show_debug_message("foo");
 	}
 */
+y += 25;
+_amountScrolled += 25;
