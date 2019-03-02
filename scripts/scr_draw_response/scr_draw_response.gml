@@ -11,6 +11,8 @@ var _messageSizeX = argument2;
 var _padding = 10;
 var _id = 0;
 var list = ds_list_create();
+var _lastMessage;
+var _firstMessage;
 
 //Acts as a foreach loop
 with(obj_speech_bubble_parent) {
@@ -20,11 +22,15 @@ with(obj_speech_bubble_parent) {
 	y -= _amountScrolled;
 	_amountScrolled = 0;
 	y -= sprite_get_height(asset_get_index("spr_convo_" + _messageSizeX)) + _padding;
-		/*for (var i = 0; i < _id; i++;)
+	//Get the position of the first message and the last message aka the y position
+   for (var i = 0; i < _id; i++;)
     {
-	   ds_list_set(list, i, _position);
+	   ds_list_set(list, i, y);
     }
-	_id++;*/
+	_firstMessage = ds_list_find_value(list, 0);
+	_lastMessage = ds_list_find_value(list,_id-1);
+	_id++;
+	
 } 
 
 //Gets the width of the message
@@ -40,11 +46,11 @@ with(instance_create_depth(_tempX, 553, 0, obj_speech_bubble_parent))
 	_messageSize = _messageSizeX;
 	_message = _messageX;
 	show_debug_message("Created a new message");
-/*	//show_debug_message("Our position of NEW message:" + " " + string(_position) + " And id:" + string(instance_id[_id]));
-	ds_list_add(_id, _position);
-for (var i = 0; i < _id; i++;)
- {
-	  show_debug_message("Our position of this message:" + " " + string(instance_id[i]._position) + " And id:" + string(instance_id[i]));
- }*/
+	show_debug_message("Our position of NEW message:" + " " + string(y) + " And id:" + string(instance_id[_id]));
+	ds_list_add(_id, 553);
+  for (var i = 0; i < _id; i++;)
+  {
+ 	  show_debug_message("Our position of this message:" + " " + string(instance_id[i].y) + " And id:" + string(instance_id[i]));
+  }
 
 }

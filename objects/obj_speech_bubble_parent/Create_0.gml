@@ -6,4 +6,6 @@ _messageSize = "small";
 _message = "Sample NPC message.";
 _interactiveResponse = false;
 _amountScrolled = 0;
+_firstMessage = 553;
+_lastMessage = 553;
 

@@ -9,5 +9,15 @@
 		show_debug_message("foo");
 	}
 */
-y += 25;
+
 _amountScrolled += 25;
+
+//Can't scroll past 553
+if(y < _lastMessage)
+{
+		y += 25;
+}
+else
+{
+	
+}
