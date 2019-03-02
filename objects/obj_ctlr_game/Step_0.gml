@@ -52,29 +52,21 @@ if(isTalking == true)
 	}
 	if(keyboard_check_released(ord("7")))
 	{
-<<<<<<< HEAD
-		scr_draw_response(sender.pc, "Large message from PC","large");
-=======
+
 		scr_draw_response(sender.npc, "Neutral Response", "large");
->>>>>>> origin/master
+
 		responseReaction = respStrengths.soft;
 	}
 	if(keyboard_check_released(ord("8")))
 	{
-<<<<<<< HEAD
-		scr_draw_response(sender.pc, "Large message from PC", "large");
-=======
 		scr_draw_response(sender.npc, "Blushing Response", "large");
->>>>>>> origin/master
+
 		responseReaction = respStrengths.medium;
 	}
 	if(keyboard_check_released(ord("9")))
 	{
-<<<<<<< HEAD
-		scr_draw_response(sender.pc, "Large message from PC", "large");
-=======
 		scr_draw_response(sender.npc, "Mad Response", "large");
->>>>>>> origin/master
+
 		responseReaction = respStrengths.strong;
 	}
 }
