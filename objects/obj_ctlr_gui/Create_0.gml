@@ -64,3 +64,9 @@ npcState = npcStates.def; */
 // Using the number -1 to treat this like a null pointer since there isn't an ID that can be -1
 globalvar conversationSurface;
 conversationSurface = -1;
+
+globalvar messagePadding;
+messagePadding = 10;
+
+globalvar totalMessageHeight;
+totalMessageHeight = 0;
