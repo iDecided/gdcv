@@ -10,14 +10,9 @@
 	}
 */
 
-_amountScrolled += 25;
 
-//Can't scroll past 553
-if(y < _lastMessage)
+if(_amountScrolled < _lastMessage)
 {
-		y += 25;
-}
-else
-{
-	
+	y += 25;
+	_amountScrolled += 25
 }

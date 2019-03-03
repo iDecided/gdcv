@@ -8,4 +8,6 @@ _interactiveResponse = false;
 _amountScrolled = 0;
 _firstMessage = 553;
 _lastMessage = 553;
+_canScrollUp = true;
+_canScrollDown = true;
 

@@ -19,6 +19,8 @@ with(obj_speech_bubble_parent) {
     //Large things go by increments of 141
 	//Medium go by increments of 114
 	//Small go by increments of 80
+
+
 	y -= _amountScrolled;
 	_amountScrolled = 0;
 	y -= sprite_get_height(asset_get_index("spr_convo_" + _messageSizeX)) + _padding;
@@ -29,6 +31,7 @@ with(obj_speech_bubble_parent) {
     }
 	_firstMessage = ds_list_find_value(list, 0);
 	_lastMessage = ds_list_find_value(list,_id-1);
+
 	_id++;
 	
 } 
@@ -45,12 +48,12 @@ with(instance_create_depth(_tempX, 553, 0, obj_speech_bubble_parent))
 	_sender = _senderX;
 	_messageSize = _messageSizeX;
 	_message = _messageX;
-	show_debug_message("Created a new message");
-	show_debug_message("Our position of NEW message:" + " " + string(y) + " And id:" + string(instance_id[_id]));
+//	show_debug_message("Created a new message");
+//	show_debug_message("Our position of NEW message:" + " " + string(y) + " And id:" + string(instance_id[_id]));
 	ds_list_add(_id, 553);
-  for (var i = 0; i < _id; i++;)
+ /* for (var i = 0; i < _id; i++;)
   {
  	  show_debug_message("Our position of this message:" + " " + string(instance_id[i].y) + " And id:" + string(instance_id[i]));
-  }
+  }*/
 
 }
