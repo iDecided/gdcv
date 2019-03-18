@@ -22,7 +22,8 @@
         "b7c3f999-56a3-4934-86da-e4005cf6b020",
         "f7ff22e5-facf-4934-b6fc-491d8b62bc43",
         "2d91638a-a66b-4ad4-a069-6f101bfede8b",
-        "5e8b8781-77f7-45e3-a2ed-4c43908aa0d0"
+        "5e8b8781-77f7-45e3-a2ed-4c43908aa0d0",
+        "9e453cc6-5c1f-40a2-bc78-25eb533db171"
     ],
     "filterType": "GMObject",
     "folderName": "Talking",

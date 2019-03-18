@@ -8,6 +8,7 @@ var _senderX = argument0;
 var _messageX = argument1;
 var _messageSizeX = argument2;
 
+
 var _padding = 10;
 var _id = 0;
 var list = ds_list_create();
@@ -15,17 +16,15 @@ var _lastMessage;
 var _firstMessage;
 
 //Acts as a foreach loop
-with(obj_speech_bubble_parent) {
-    //Large things go by increments of 141
-	//Medium go by increments of 114
-	//Small go by increments of 80
 
+// This with statement resets the positions of all of the messages that have been spawned so that
+// the newest message appears at the bottom of the queue
+with(obj_speech_bubble_parent) {
 
 	y -= _amountScrolled;
 	_amountScrolled = 0;
-	y -= sprite_get_height(asset_get_index("spr_convo_" + _messageSizeX)) + _padding;
 	//Get the position of the first message and the last message aka the y position
-   for (var i = 0; i < _id; i++;)
+/*   for (var i = 0; i < _id; i++;)
     {
 	   ds_list_set(list, i, y);
     }
@@ -33,8 +32,9 @@ with(obj_speech_bubble_parent) {
 	_lastMessage = ds_list_find_value(list,_id-1);
 
 	_id++;
-	
-} 
+*/	
+	y -= sprite_get_height(asset_get_index("spr_convo_" + _messageSizeX)) + messagePadding;
+}
 
 //Gets the width of the message
 var _tempX = 434; //npc temp
@@ -48,6 +48,7 @@ with(instance_create_depth(_tempX, 553, 0, obj_speech_bubble_parent))
 	_sender = _senderX;
 	_messageSize = _messageSizeX;
 	_message = _messageX;
+
 //	show_debug_message("Created a new message");
 //	show_debug_message("Our position of NEW message:" + " " + string(y) + " And id:" + string(instance_id[_id]));
 	ds_list_add(_id, 553);
@@ -56,4 +57,6 @@ with(instance_create_depth(_tempX, 553, 0, obj_speech_bubble_parent))
  	  show_debug_message("Our position of this message:" + " " + string(instance_id[i].y) + " And id:" + string(instance_id[i]));
   }*/
 
+	totalMessageHeight += sprite_get_height(asset_get_index("spr_convo_" + _messageSizeX)) + messagePadding;
+	show_debug_message("Total Message Height: " + string(totalMessageHeight));
 }
