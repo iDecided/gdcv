@@ -1,10 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-//+sprite_get_height(asset_get_index("spr_give_gift")) 
+y += 25;
+_amountScrolled += 25;
 /*
-	totalMessageHeight for two small message = 80 + 10+ 80 + 10 = 180
-*/
 if((_messageSize == "small") && (_amountScrolled < totalMessageHeight - (sprite_get_height(asset_get_index("spr_give_gift") + messagePadding))))
 {
 	y += 25;
@@ -24,4 +23,4 @@ if((_messageSize == "large") && (_amountScrolled < totalMessageHeight - (sprite_
 	y += 25;
 	_amountScrolled += 25;
 	_position += 25;
-}
+}*/

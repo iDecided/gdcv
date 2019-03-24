@@ -9,7 +9,7 @@ if (surface_exists(surfacewithmask))
 else
 {
 	
-	surfacewithmask = surface_create(1280,720);
+	surfacewithmask = surface_create(1280,560);
 }
 //draw_surface(surfacewithmask,200,65);
 //surfacewithmask = surface_create(670,435);
