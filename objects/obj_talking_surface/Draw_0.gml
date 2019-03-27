@@ -11,11 +11,5 @@ else
 	
 	surfacewithmask = surface_create(1280,560);
 }
-//draw_surface(surfacewithmask,200,65);
-//surfacewithmask = surface_create(670,435);
-//For finding positions
-/*draw_text(200,65,"left");
-draw_text(930,50,"right");
-draw_text(200,485,"downl");
-draw_text(933,485,"downr");*/
+
 
