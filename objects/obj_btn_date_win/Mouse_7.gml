@@ -16,8 +16,16 @@ scr_add_affection(5, true);
 
 var receivedRandomGift = false;
 var giftStr;
+
+//Goes to find a random person and picks a gift.
+//Check if random person name is same as global.talkingTo 
+//Check if level is correct
 do {
 	var randPers = global.names[| irandom_range(0, ds_list_size(global.names) - 1)];
+	while(randPers == global.talkingTo)
+	{
+		randPers = global.names[| irandom_range(0, ds_list_size(global.names) - 1)];
+	}
 	giftStr = randPers + "_" + string(global.affectionLevelMap[? randPers] + 1);
 	receivedRandomGift = scr_add_gift(randPers, global.affectionLevelMap[? randPers] + 1);
 } until (receivedRandomGift);

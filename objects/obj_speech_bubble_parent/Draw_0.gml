@@ -7,7 +7,7 @@ if (surface_exists(obj_talking_surface.surfacewithmask))
    }
    else
    {
-	   obj_talking_surface.surfacewithmask = surface_create(1280,560);
+	    obj_talking_surface.surfacewithmask = surface_create(1280,560);
 	    surface_set_target(obj_talking_surface.surfacewithmask);
    }
    
